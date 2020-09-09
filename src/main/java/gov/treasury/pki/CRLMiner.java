@@ -54,6 +54,7 @@ import org.bouncycastle.asn1.x509.IssuingDistributionPoint;
 import org.bouncycastle.asn1.x509.SubjectKeyIdentifier;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import gov.treasury.pki.util.DataUtil;
 
@@ -180,7 +181,8 @@ public class CRLMiner {
 		/*
 		 * Output our results so far, in JSON
 		 */
-		String crlJson = new Gson().toJson(crlMap);
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		String crlJson = gson.toJson(crlMap);
 		System.out.println(crlJson);
 		/*
 		 * TODO: Create a rejected CRL URI list, persist, and check future
@@ -199,14 +201,19 @@ public class CRLMiner {
 		try (BufferedReader br = new BufferedReader(new FileReader(fileCsv))) {
 			for (String line; (line = br.readLine()) != null;) {
 				/*
+				 * .sh script picks up URLs that contain spaces -vs- URL encoding
+				 */
+				String uri = line.trim().replace(" ", "%20");
+				/*
 				 * First, ensure it is a valid URI
 				 */
 				URI crlUri = null;
 				try {
-					crlUri = new URI(line.trim());
+					crlUri = new URI(uri);
 				} catch (URISyntaxException e) {
 					e.printStackTrace();
 				}
+				
 				byte[] crlBytes = downloadCRL(crlUri);
 				/*
 				 * We only care about URLs that return a valid combined CRL
@@ -257,6 +264,7 @@ public class CRLMiner {
 							}
 							if (certsFromSelector != null && certsFromSelector.size() > 0) {
 								X509Certificate signingCA = (X509Certificate) certsFromSelector.toArray()[0];
+								System.out.println("Found: " + signingCA.getSubjectX500Principal().getName());
 								try {
 									currentCrl.verify(signingCA.getPublicKey());
 								} catch (InvalidKeyException | CRLException | NoSuchAlgorithmException
@@ -276,13 +284,20 @@ public class CRLMiner {
 									if (idp.onlyContainsUserCerts() || idp.onlyContainsCACerts()
 											|| idp.onlyContainsAttributeCerts()) {
 										System.out.println("Not a combined CRL: " + crlAkiHexString + ": " + crlUri);
+									} else {
+										/*
+										 * Check for an IssuingDistributionPoint
+										 * HTTP URI, and prefer it over the one
+										 * submitted, noting the rejection
+										 */
+										DistributionPointName dpn = idp.getDistributionPoint();
+										String[] dpnUri = getCdpUris(dpn, "http");
+										for (String currentUri: dpnUri) {
+											System.out.println("Found IssuingDistributionPoint URI: " + currentUri);
+										}
+										updateMap(crlAkiHexString, dpnUri);
 									}
 								} else {
-									/*
-									 * Check for an IssuingDistributionPoint
-									 * HTTP URI, and prefer it over the one
-									 * submitted, noting the rejection
-									 */
 									System.out.println("No iDP CRL extension, assuming full and correct CRL: "
 											+ crlAkiHexString + ": " + crlUri);
 									if (crlMap.containsKey(crlAkiHexString)) {
@@ -294,12 +309,42 @@ public class CRLMiner {
 										"No signer in our store, rejecting: " + crlAkiHexString + ": " + crlUri);
 							}
 						} else {
-							System.out.println("Rejecting CRL URL due to no KeyIdentifier: " + crlUri);
+							System.out.println("Warning: CRL obtained via proposed URI has no authorityKeyIdentifier: " + crlUri);
+							X509CertSelector nameSelector = new X509CertSelector();
+							nameSelector.setSubject(currentCrl.getIssuerX500Principal().getEncoded());
+							System.out.println(
+									"Searching for Subject Name: " + currentCrl.getIssuerX500Principal().getName());
+							Collection<? extends Certificate> certsFromSelector = null;
+							try {
+								certsFromSelector = cstore.getCertificates(nameSelector);
+							} catch (CertStoreException e) {
+								e.printStackTrace();
+							}
+							if (certsFromSelector != null && certsFromSelector.size() > 0) {
+								X509Certificate signingCA = (X509Certificate) certsFromSelector.toArray()[0];
+								try {
+									currentCrl.verify(signingCA.getPublicKey());
+								} catch (InvalidKeyException | CRLException | NoSuchAlgorithmException
+										| NoSuchProviderException | SignatureException e) {
+									e.printStackTrace();
+								}
+								Extensions exts = getExtensions(signingCA);
+								Extension ski = exts.getExtension(Extension.subjectKeyIdentifier);
+								SubjectKeyIdentifier skiExt = SubjectKeyIdentifier
+										.getInstance(ASN1OctetString.getInstance(ski.getExtnValue()).getOctets());
+								String skiHexString = DataUtil.byteArrayToString(skiExt.getKeyIdentifier());
+								if (crlMap.containsKey(skiHexString)) {
+									updateMap(skiHexString, new String[] { crlUri.toString() });
+								}
+							} else {
+								System.out.println(
+										"No signer in our store, rejecting: " + currentCrl.getIssuerX500Principal().getName() + ": " + crlUri);
+							}
 						}
 					}
 				}
 			}
-			crlJson = new Gson().toJson(crlMap);
+			crlJson = gson.toJson(crlMap);
 			fosJson.write(crlJson.getBytes());
 			fosJson.flush();
 			fosJson.close();
@@ -326,8 +371,8 @@ public class CRLMiner {
 				}
 			}
 			/*
-			 * TODO: Purge URLs in persistent JSON map that no longer exist in
-			 * the submitted CMS Certs-Only message.
+			 * TODO: Purge URLs in persistent JSON map that no longer exist in the submitted
+			 * CMS Certs-Only message.
 			 */
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -343,6 +388,9 @@ public class CRLMiner {
 		 * If not, then add the identifier into the map with the URI array
 		 */
 		if (crlMap.containsKey(keyIdentifierHexString)) {
+			for (String newUriEntry : newUri) {
+				System.out.println("Adding URI: " + newUriEntry);
+			}
 			crlMap.put(keyIdentifierHexString, newUri);
 			/*
 			 * If it does exist, only add *new* urls from the submitted URI
@@ -357,15 +405,22 @@ public class CRLMiner {
 			if (null != existingUri && existingUri.length > 0) {
 				List<String> updatedUriList = new ArrayList<String>();
 				for (String uri : existingUri) {
+					System.out.println("Keeping URI: " + uri);
 					updatedUriList.add(uri);
 				}
 				for (String newUriEntry : newUri) {
 					if (!updatedUriList.contains(newUriEntry)) {
+						System.out.println("Adding URI: " + newUriEntry);
 						updatedUriList.add(newUriEntry);
+					} else {
+						System.out.println("Skipping existing URI: " + newUriEntry);
 					}
 				}
 				crlMap.put(keyIdentifierHexString, updatedUriList.toArray(new String[updatedUriList.size()]));
 			} else {
+				for (String newUriEntry : newUri) {
+					System.out.println("Adding URI: " + newUriEntry);
+				}
 				crlMap.put(keyIdentifierHexString, newUri);
 			}
 		}
@@ -387,6 +442,31 @@ public class CRLMiner {
 		}
 		Extension[] extArr = new Extension[critExt.size() + nonCritExt.size()];
 		return new Extensions(extensions.toArray(extArr));
+	}
+
+	private static String[] getCdpUris(DistributionPointName dpn, String protocol) {
+		ArrayList<String> uris = new ArrayList<String>();
+		if (dpn.getType() == DistributionPointName.FULL_NAME) {
+			GeneralName[] gns = GeneralNames.getInstance(dpn.getName()).getNames();
+			for (GeneralName gn : gns) {
+				if (gn.getTagNo() == GeneralName.uniformResourceIdentifier) {
+					URI thisURI = null;
+					try {
+						thisURI = new URI(gn.getName().toString());
+					} catch (URISyntaxException e) {
+						/*
+						 * We will swallow this exception for now,
+						 * and simply not add it is thisURI is null
+						 */
+					}
+					if (null != thisURI && null != thisURI.getScheme()
+							&& thisURI.getScheme().toLowerCase().startsWith(protocol)) {
+						uris.add(thisURI.toString());
+					}
+				}
+			}
+		}
+		return uris.toArray(new String[uris.size()]);
 	}
 
 	private static String[] getCdpUris(X509Certificate cert, String protocol) {
@@ -420,25 +500,9 @@ public class CRLMiner {
 				}
 				DistributionPointName dpn = null;
 				if ((dpn = dp.getDistributionPoint()) != null) {
-					if (dpn.getType() == DistributionPointName.FULL_NAME) {
-						GeneralName[] gns = GeneralNames.getInstance(dpn.getName()).getNames();
-						for (GeneralName gn : gns) {
-							if (gn.getTagNo() == GeneralName.uniformResourceIdentifier) {
-								URI thisURI = null;
-								try {
-									thisURI = new URI(gn.getName().toString());
-								} catch (URISyntaxException e) {
-									/*
-									 * We will swallow this exception for now,
-									 * and simply not add it is thisURI is null
-									 */
-								}
-								if (null != thisURI && null != thisURI.getScheme()
-										&& thisURI.getScheme().toLowerCase().startsWith(protocol)) {
-									uris.add(thisURI.toString());
-								}
-							}
-						}
+					String[] dpnUri = getCdpUris(dpn, protocol);
+					for (String currentUri: dpnUri) {
+						uris.add(currentUri);
 					}
 				}
 			}
