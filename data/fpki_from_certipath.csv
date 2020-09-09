@@ -1,0 +1,1295 @@
+Subject,Issuer,Serial,Not Before,Not After,Policies,CRL,AIA,OCSP,SHA1,SHA256
+"OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",734B,2019-08-14 15:45:45,2022-08-14 15:42:22,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.10
+2.16.840.1.101.3.2.1.5.11
+2.16.840.1.101.3.2.1.5.12
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.5
+2.16.840.1.101.3.2.1.5.7","http://pki.treasury.gov/US_Treasury_Root_CA1.crl","http://pki.treasury.gov/noca_aia.p7c
+http://pki.treasury.gov/ssaca_aia.p7c
+http://pki.treasury.gov/vaca_aia.p7c
+http://pki.treasury.gov/dhsca_aia.p7c
+http://pki.treasury.gov/toca_aia.p7c
+http://pki.treasury.gov/cacertsissuedtotrca.p7c","",48CE02A99AE2CC4F790F2989AA153ED565B7E4D2,BDECCE9021294788418E4AD02C398A0297E2CA11380F4EB008A2446D6EB74FA3
+"OU=NASA Operational CA, OU=Certification Authorities, OU=NASA, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",5CCB3196,2019-05-04 12:40:55,2029-05-04 13:10:55,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.10
+2.16.840.1.101.3.2.1.5.11
+2.16.840.1.101.3.2.1.5.12","http://hc.nasa.gov/combinedCRL4.crl
+http://pki.treas.gov/NASA_Operational_CA4.crl","http://pki.treas.gov/noca_ee_aia.p7c","http://ocsp.treas.gov",F504012B1FE57B4381E3BF5BA9F491144ED76EE1,8A71BBABD4A2373427CED4329CF2A8ACBD93B62B020D52B377B32E51780072E4
+"OU=Department of Veterans Affairs CA, OU=Certification Authorities, OU=Department of Veterans Affairs, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",5CCB3215,2019-06-22 13:23:22,2029-06-22 13:53:22,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.10
+2.16.840.1.101.3.2.1.5.11
+2.16.840.1.101.3.2.1.5.12","http://pki.treasury.gov/VA_CA2.crl
+http://crl.pki.va.gov/PKI/CRL/VA_CA2.crl","http://pki.treasury.gov/vaca_ee_aia.p7c","http://ocsp.treasury.gov
+http://ocsp.pki.va.gov",76CC898F03EB0FC7E0877AAC30A0C1340BB34879,CB3E8B747B134DB5E683BCFC8DDED8F3B38B1FEB51EDCBE69BBF6923FFB0FC0F
+"OU=OCIO CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",5CCB31FE,2019-06-22 13:14:02,2029-06-22 13:44:02,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.10
+2.16.840.1.101.3.2.1.5.11
+2.16.840.1.101.3.2.1.5.12
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","http://pki.treas.gov/OCIO_CA5.crl","http://pki.treas.gov/toca_ee_aia.p7c","http://ocsp.treas.gov",E651A5DC6A1305613A22E46548E1666650C2825F,8A9A179C50ED4DB5B084F89654FC849C768010D5A3DEC39BE9FBA51143C1A51F
+"OU=DHS CA4, OU=Certification Authorities, OU=Department of Homeland Security, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",5CCB31CA,2019-06-06 11:11:16,2029-06-06 11:41:16,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.10
+2.16.840.1.101.3.2.1.5.11
+2.16.840.1.101.3.2.1.5.12","http://pki.dimc.dhs.gov/DHS_CA3.crl","http://pki.dimc.dhs.gov/dhsca_ee_aia.p7c","http://ocsp.dimc.dhs.gov",58085A64E181573F4FD917C5C021EB1CF344DD5F,1F876321693113EA500050531A755716F196DC05EAD8499E794D341F6CB44515
+"OU=Social Security Administration Certification Authority, OU=SSA, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",5BF45959,2019-04-07 12:38:39,2029-04-07 13:08:39,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3","http://pki.treas.gov/SSA_CA3.crl","http://pki.treas.gov/ssaca_ee_aia.p7c","http://ocsp.treas.gov",897A79FD488D426D6C50D0BA026F698BCA3334F4,23212B00AC42AE1F1DCE4AABB0CD15ACB4FB8E172EDC55452C01A2DB92CCF47C
+"OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",570D2C00,2006-08-05 14:16:30,2026-08-05 14:46:30,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.10
+2.16.840.1.101.3.2.1.5.11
+2.16.840.1.101.3.2.1.5.12
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","http://pki.treas.gov/US_Treasury_Root_CA.crl
+http://pki.treasury.gov/US_Treasury_Root_CA.crl","http://pki.treasury.gov/noca_aia.p7c
+http://pki.treas.gov/fsca_aia.p7c
+http://pki.treasury.gov/cacertsissuedtotrca.p7c
+http://pki.treasury.gov/ssaca_aia.p7c
+http://pki.treas.gov/teca_aia.p7c
+http://pki.treasury.gov/vaca_aia.p7c
+http://pki.treas.gov/vaca_aia.p7c
+http://pki.treas.gov/ssaca_aia.p7c
+http://pki.treas.gov/noca_aia.p7c
+http://pki.treas.gov/dhsca_aia.p7c
+http://pki.treasury.gov/dhsca_aia.p7c
+http://pki.treas.gov/toca_aia.p7c
+http://pki.treasury.gov/toca_aia.p7c
+http://pki.treas.gov/cpca_aia.p7c","",30EE8B72D745DA0F6938ED137AC604DCD8A74AF0,B29701B95EE250E1C13A15131CACC7C503F1F980BA1044F704EADF81393F90A3
+"OU=US Treasury Public CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4A61D1DB,2010-12-05 18:52:36,2020-12-05 19:22:36,"2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","http://pki.treas.gov/PUBLIC_CA.crl","http://pki.treas.gov/eca_ee_aia.p7c","http://ocsp.treas.gov",14D4454152A6A1384052186ADBB944FB2E1A768D,ABCC9BBBB785ABD4A567C918455EAB7D12C15487DC5F3C8016404D58984A142A
+"OU=Fiscal Service, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4A61D1C9,2010-12-05 13:38:40,2020-12-05 14:08:40,"2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","http://pki.treas.gov/FS_CA5.crl","http://pki.treas.gov/fsca_ee_aia.p7c","http://ocsp.treas.gov/",B3B90EDE68B05F0096F5AA497787F950FDD8CCAD,E950C41345A61785A8B8BE10A52E36542C7B5D51A0A873481CDE1B7089D973E1
+"OU=NASA Operational CA, OU=Certification Authorities, OU=NASA, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4A61D2A5,2011-01-22 13:39:06,2021-01-22 14:09:06,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://pki.treas.gov/NASA_Operational_CA2.crl
+http://hc.nasa.gov/combinedCRL2.crl","http://pki.treas.gov/noca_ee_aia.p7c","http://ocsp.treas.gov",76A6EAA852710E00B368C41080E6131140AAF189,873107051E828919476330C81D56B725BE7E25F5B4721089A8DFEB36AAEE2412
+"OU=Fiscal Service, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4E398167,2015-10-17 13:37:26,2025-10-17 14:07:26,"2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","http://pki.treas.gov/FS_CA6.crl","http://pki.treas.gov/fsca_ee_aia.p7c","http://ocsp.treas.gov/",ED3FB316118257A44EA11A493DA1415BEB3012D7,0A3CC48DC570A2A346C94DE2091A6ECD42D77DA50A1F7A2AD3467660CD94622F
+"OU=OCIO CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4A61D192,2010-11-07 14:46:08,2020-11-07 15:16:08,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","http://pki.treas.gov/OCIO_CA3.crl","http://pki.treas.gov/toca_ee_aia.p7c","http://ocsp.treas.gov",918A68D87FB6011AFE3666076319ED0462DF0940,B90EC2D81814500CBC5A1FC80C7F03C780D17CFAE470495252A445A01C77649C
+"OU=Department of Veterans Affairs CA, OU=Certification Authorities, OU=Department of Veterans Affairs, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4E398179,2015-10-17 14:01:27,2025-10-17 14:31:27,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://pki.treasury.gov/VA_CA1.crl
+http://crl.pki.va.gov/PKI/CRL/VA_CA1.crl
+http://pki.treas.gov/VA_CA1.crl","http://pki.treas.gov/vaca_ee_aia.p7c
+http://pki.treasury.gov/vaca_ee_aia.p7c","http://ocsp.treasury.gov
+http://ocsp.treas.gov
+http://ocsp.pki.va.gov",E2EDB0DF1FE8068717A08E38741B5BC4C38029D0,D3F96C56A90230EFF805EC3EAFA99037399DA8E0EECE679E195AD32CCDE03239
+"OU=DHS CA4, OU=Certification Authorities, OU=Department of Homeland Security, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4A61D293,2011-01-21 19:11:28,2021-01-21 19:41:28,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://pki.dimc.dhs.gov/DHS_CA1.crl","http://pki.dimc.dhs.gov/dhsca_ee_aia.p7c","http://ocsp.dimc.dhs.gov",49AE4F027419A3EB227E4CD4CCF4FF1BC75213B6,05A667E94369224CCB38057F796FF8A09D047FF4E36F0C3B410DC7D095E2515E
+"OU=OCIO CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4A61D147,2010-09-12 14:46:41,2020-09-12 15:16:41,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","","","",F9299790EB271125FD91E661CEDE4EE202D7E758,3518C20CD591EC2709ACD6E900B9096866FF69EF0585A0C25831E67D6B589967
+"OU=Social Security Administration Certification Authority, OU=SSA, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4E3980EF,2015-04-19 15:04:29,2025-04-19 15:34:29,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3","http://pki.treas.gov/SSA_CA2.crl","http://pki.treas.gov/ssaca_ee_aia.p7c","http://ocsp.treas.gov",BB6C62E648D503F1BEAB75EF5F69B17256175993,D04C60329EE3777FFDAD5DEFA59B79128EE2E6EEDFD49A5FE8D5BC2331A95C5C
+"OU=OCIO CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4E398101,2015-04-19 15:17:45,2025-04-19 15:47:45,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","http://pki.treas.gov/OCIO_CA4.crl
+http://pki.treasury.gov/OCIO_CA4.crl","http://pki.treas.gov/toca_ee_aia.p7c
+http://pki.treasury.gov/toca_ee_aia.p7c","http://ocsp.treasury.gov
+http://ocsp.treas.gov",5AD254C3ECEBB5B7E108CAA0CC8030598A7B7709,FB937C32CA31A423D8FB6F559668916BCE6D01EBC3C09CF92477C091FEE5D417
+"OU=NASA Operational CA, OU=Certification Authorities, OU=NASA, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4E398116,2015-06-13 14:24:52,2025-06-13 14:54:52,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://pki.treas.gov/NASA_Operational_CA3.crl
+http://hc.nasa.gov/combinedCRL3.crl","http://pki.treas.gov/noca_ee_aia.p7c","http://ocsp.treas.gov",FE7572BBDE7B7F44152ACC8E1715C18714DC9D63,F410E066EC1674C3DDFC104B1CF3CC78B159A537D8EA88281D7D0DAB5D102D8E
+"OU=Social Security Administration Certification Authority, OU=SSA, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4A61D2BA,2011-02-16 23:29:58,2021-02-16 23:59:58,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3","http://pki.treas.gov/SSA_CA1.crl","http://pki.treas.gov/ssaca_ee_aia.p7c","http://ocsp.treas.gov",B4B209AADE830834C9B5C2F815021D28DC381FE1,95E1D2A85F295927B8F477E860A5BF243E87AA9E389C0BF0685AE9324EDD5362
+"OU=Department of Veterans Affairs CA, OU=Certification Authorities, OU=Department of Veterans Affairs, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4E397F22,2012-08-28 13:47:17,2022-08-28 14:17:17,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://pki.treas.gov/VA_CA.crl
+http://crl.pki.va.gov/PKI/CRL/VA_CA.crl","http://pki.treas.gov/vaca_ee_aia.p7c
+http://pki.treasury.gov/vaca_ee_aia.p7c","http://ocsp.treas.gov
+http://ocsp.pki.va.gov",519D3222A15EEE034980FC0DA727314F70AF78C0,26C32D2BD4F034B43E271AA6F72A644332FB96D96D8B11B97DC57CCD8ADC82B4
+"OU=DHS CA4, OU=Certification Authorities, OU=Department of Homeland Security, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",4E398128,2015-06-13 14:35:04,2025-06-13 15:05:04,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://pki.dimc.dhs.gov/DHS_CA2.crl","http://pki.dimc.dhs.gov/dhsca_ee_aia.p7c","http://ocsp.dimc.dhs.gov",A31A5DF2F1C1019B9CF5B7CA4E3B26650B9CA93F,8E72D7982431C4BDCF7C2AB2C9B5B1321738D65841B8197EACCE142F0A9C8343
+"CN=Federal Bridge CA 2016, OU=FPKI, O=U.S. Government, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",76D8,2019-10-28 14:07:37,2020-10-28 14:05:29,"2.16.840.1.101.3.2.1.3.1
+2.16.840.1.101.3.2.1.3.12
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.14
+2.16.840.1.101.3.2.1.3.15
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.18
+2.16.840.1.101.3.2.1.3.19
+2.16.840.1.101.3.2.1.3.2
+2.16.840.1.101.3.2.1.3.20
+2.16.840.1.101.3.2.1.3.3
+2.16.840.1.101.3.2.1.3.37
+2.16.840.1.101.3.2.1.3.38
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.4
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41","http://http.fpki.gov/bridge/fbca2016.crl","http://http.fpki.gov/bridge/caCertsIssuedTofbca2016.p7c
+http://http.fpkil.gov/bridge/caCertsIssuedTofbca2016.p7c
+http://http.fpkii-lab.gov/bridge/caCertsIssuedTofbca2016.p7c","",BD38B7E253CFC5DD278A927F88833FB44C6AF03A,AD7901CB2C9B98CB628D2DB7BFE4E7F4211C57FA6848EEC5D712FBF600DC72CB
+"CN=U.S. Department of State AD Root CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",79F9,2019-12-18 17:01:21,2022-12-18 17:00:06,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.6.12
+2.16.840.1.101.3.2.1.6.3
+2.16.840.1.101.3.2.1.6.37
+2.16.840.1.101.3.2.1.6.38
+2.16.840.1.101.3.2.1.6.4","http://crls.pki.state.gov/crls/DoSADPKIRootCA1.crl","http://crls.pki.state.gov/AIA/CertsIssuedToDoSADRootCA.p7c","http://ocsp.pki.state.gov/OCSP/DoSOCSPResponder",CE11590010562A39AD8B1455ACF76C03737AEBF6,4AF408FCECD305F99001E090DA1565D8BBA178349B762A813E91C33DD7731B95
+"CN=U.S. Department of State AD High Assurance CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu","CN=U.S. Department of State AD Root CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu",51B069FA,2018-03-06 21:24:54,2028-03-06 21:54:54,"2.16.840.1.101.3.2.1.6.12
+2.16.840.1.101.3.2.1.6.3
+2.16.840.1.101.3.2.1.6.37
+2.16.840.1.101.3.2.1.6.38
+2.16.840.1.101.3.2.1.6.4","http://crls.pki.state.gov/crls/DoSADPKIHACA-1.crl","http://crls.pki.state.gov/AIA/CertsIssuedToDoSADHACA.p7c","http://ocsp.pki.state.gov/OCSP/DoSOCSPResponder",189C0E905310264421811688ECCC5E513D0F3C91,D3F25AC0F17A5DE2B3DCFAEBE9B3464672368DF7C263F7B1C920741C4EC5DDA7
+"OU=U.S. Department of State PIV CA2, OU=Certification Authorities, OU=PIV, OU=Department of State, O=U.S. Government, C=US","CN=U.S. Department of State AD Root CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu",51B0B97F,2020-01-24 23:34:08,2030-01-25 00:04:08,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.6.12
+2.16.840.1.101.3.2.1.6.3
+2.16.840.1.101.3.2.1.6.4","http://crls.pki.state.gov/crls/DoSADPKIPIVCA2-1.crl","","",68A4E9AB7A1FB8FB85316A770FF9CA874C020724,20506F34E71E57F714B5382B2D6E7D932FFBB0B752B375D7A83F8B0F31CC65BE
+"CN=U.S. Department of State AD Root CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu","CN=U.S. Department of State AD Root CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu",51B0B86F,2004-06-23 17:50:55,2034-06-23 18:20:55,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.6.12
+2.16.840.1.101.3.2.1.6.3
+2.16.840.1.101.3.2.1.6.4","http://crls.pki.state.gov/crls/DoSADPKIRootCA.crl","http://crls.pki.state.gov/AIA/CertsIssuedToDoSADRootCA.p7c","http://ocsp.pki.state.gov/OCSP/DoSOCSPResponder",9805F8A8C80BE8F691122550D7F5FC163830D751,C736D892682DC5F0CCDACE1A310D12A439177758BFA17A83BE99A30158103DC7
+"CN=U.S. Department of State AD High Assurance CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu","CN=U.S. Department of State AD Root CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu",4E331551,2012-03-19 19:03:48,2022-03-19 19:33:48,"2.16.840.1.101.3.2.1.6.12
+2.16.840.1.101.3.2.1.6.3
+2.16.840.1.101.3.2.1.6.4","http://crls.pki.state.gov/crls/DoSADPKIHACAsha256.crl","http://crls.pki.state.gov/AIA/CertsIssuedToDoSADHACA.p7c","http://ocsp.pki.state.gov/OCSP/DoSOCSPResponder",3581798B776800A2B2BEF7F8B8362135AD8A7AE7,29D087573EE1A167A18F5C13FFE751CCEFACCAC498B0805549E9ADFD69CEB7DA
+"OU=U.S. Department of State PIV CA2, OU=Certification Authorities, OU=PIV, OU=Department of State, O=U.S. Government, C=US","CN=U.S. Department of State AD Root CA, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=state, DC=sbu",51B02402,2016-08-03 16:13:25,2026-08-03 16:43:25,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.6.12
+2.16.840.1.101.3.2.1.6.3
+2.16.840.1.101.3.2.1.6.4","http://crls.pki.state.gov/crls/DoSADPKIPIVCA2.crl","http://crls.pki.state.gov/AIA/CertsIssuedToDoSPIVCA2.p7c","http://ocsp.pki.state.gov/OCSP/DoSOCSPResponder",FFE07FB428BCEF4BF38EBBFAE1E42339E03E7756,13AFF624E391CBD5E3A1D1ADC2B018EAA5BC8B34C8385CD621D78569EFADE517
+"CN=DigiCert Federal SSP Intermediate CA - G5, O=DigiCert, Inc., C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",66C0,2018-12-13 17:25:03,2028-12-13 17:21:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://ssp-crl.digicert.com/SSP/SSPG5.crl","http://ssp-aia.digicert.com/SSP/Certs_issued_to_SSPCAG5.p7c","http://ssp-ocsp.digicert.com",98B58247AC8A2BC6F348F03E8D22884D8345FC0F,F631142C8D74A302BB3E6C036B8D41E82E36C61EE0516811E0E30296EC98BA3F
+"CN=U.S. Department of Education Agency CA - G5, OU=U.S. Department of Education, O=U.S. Government, C=US","CN=DigiCert Federal SSP Intermediate CA - G5, O=DigiCert, Inc., C=US",5C23B98A6FF5F543B2768F6D19556C4C,2020-06-10 00:00:00,2028-12-12 23:59:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7","","","",6F48424AE8A01C2A77213A9D34F5761DAACD9EAC,29E1F32152377266605D5E254F43B3C8BB6B56CBD79863BC3BEF1BF3A26E4AD9
+"CN=U.S. Department of Transportation Agency CA G5, OU=U.S. Department of Transportation, O=U.S. Government, C=US","CN=DigiCert Federal SSP Intermediate CA - G5, O=DigiCert, Inc., C=US",0ED81C303EA3566787FACA36899A931A,2019-03-05 00:00:00,2028-12-12 23:59:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7","","","",B1D05E5B9E025EA4B3B3E30DC3F45A19F9EC51F6,CB208CF45B27D58EFE7FB91844A74E804D9608BCD204D7F0ECF9F01F7389E33D
+"CN=NRC SSP Device CA G4, OU=U.S. Nuclear Regulatory Commission, O=U.S. Government, C=US","CN=DigiCert Federal SSP Intermediate CA - G5, O=DigiCert, Inc., C=US",5019CCD269005DFF1D69A87B835794E7,2018-12-18 00:00:00,2028-12-12 23:59:59,"2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.8","http://onsite-crl.pki.digicert.com/USNuclearRegulatoryCommissionSSPPIVContentSignerG4/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/NRCSSP-Device-G4.p7c","http://ssp-ocsp.symauth.com",81F4FDB9F5DCA2940416D483F011111984116BA9,4E774A89506E9E3F0D5F584F642C2CD22E2141DBA0AC14BD575CEC4CDFEB9D5A
+"CN=U.S. Department of Education Device CA - G5, OU=U.S. Department of Education, O=U.S. Government, C=US","CN=DigiCert Federal SSP Intermediate CA - G5, O=DigiCert, Inc., C=US",3CA6CE368DDEF3741321110AAB510ED3,2019-12-19 00:00:00,2028-12-12 23:59:59,"2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.8","","","",B44B95F6F4D382B8B2C85E9CFC020EC72458ED70,931B5EC2B54094A12E6D405537890E394115BB92EF8795DD27058B1BC65F6C43
+"CN=NRC SSP Agency CA G4, OU=U.S. Nuclear Regulatory Commission, O=U.S. Government, C=US","CN=DigiCert Federal SSP Intermediate CA - G5, O=DigiCert, Inc., C=US",3A905C654791B26551E3B7077F27AA33,2018-12-18 00:00:00,2028-12-12 23:59:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7","","","",1A03581DCF159D206ACCD7BDD176C788A0862353,1DA67B5C8FE26B42C3F49230176CE677C7FAD7B8AD86F71860EE87CC495EAD4D
+"CN=U.S. Department of Transportation Device CA G5, OU=U.S. Department of Transportation, O=U.S. Government, C=US","CN=DigiCert Federal SSP Intermediate CA - G5, O=DigiCert, Inc., C=US",133FA9CC68370C5DA2A6D204C503455C,2019-03-05 00:00:00,2028-12-12 23:59:59,"2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.8","","","",263A035B50FC26368DD9A38894764B3F3592FB17,239FF43B8CD3DF6338A7625DED47D11C86E965F9E257271F83B01A058C32B2C9
+"CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",7994,2019-12-12 17:38:21,2021-12-12 17:38:13,"2.16.840.1.101.3.2.1.3.1
+2.16.840.1.101.3.2.1.3.12
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.14
+2.16.840.1.101.3.2.1.3.15
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.18
+2.16.840.1.101.3.2.1.3.19
+2.16.840.1.101.3.2.1.3.2
+2.16.840.1.101.3.2.1.3.20
+2.16.840.1.101.3.2.1.3.3
+2.16.840.1.101.3.2.1.3.37
+2.16.840.1.101.3.2.1.3.38
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.4
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41","http://repo.fpki.gov/bridge/fbcag4.crl","http://repo.fpki.gov/bridge/caCertsIssuedTofbcag4.p7c","",E836F3016BFB6E8DF274F27FD8A4A5054517B0F1,94115B55AB8754381F427FE6399008F5C65D71DD3A16E6984102EF6206D235C6
+"CN=WidePoint NFI Root 2, OU=Certification Authorities, O=WidePoint, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",11DD76C9F15569EE0810D5AF6E3D5AA104B343F5,2020-02-04 16:20:30,2023-02-04 17:00:00,"1.3.6.1.4.1.3922.1.1.1.12
+1.3.6.1.4.1.3922.1.1.1.18
+1.3.6.1.4.1.3922.1.1.1.19
+1.3.6.1.4.1.3922.1.1.1.20
+1.3.6.1.4.1.3922.1.1.1.3
+1.3.6.1.4.1.3922.1.1.1.37
+1.3.6.1.4.1.3922.1.1.1.38","http://crl-server.orc.com/CRLs/WIDEPOINTNFIROOT2.crl","http://crl-server.orc.com/caCerts/WIDEPOINTNFIROOT2.p7c","",B0B49B217BCE1B18FB374DC629D5F100BA9DDE49,529CCA396A56352E492451A33D8D5BDEE26E96DBCF5BB73352A5D66B1373B2F8
+"CN=WidePoint NFI CA 5, O=ORC PKI, C=US","CN=WidePoint NFI Root 2, OU=Certification Authorities, O=WidePoint, C=US",671B355A39B72FDDF67723F142ED726D4E0307B4,2020-04-17 19:29:38,2030-04-18 19:29:38,"1.3.6.1.4.1.3922.1.1.1.12
+1.3.6.1.4.1.3922.1.1.1.18
+1.3.6.1.4.1.3922.1.1.1.19
+1.3.6.1.4.1.3922.1.1.1.20
+1.3.6.1.4.1.3922.1.1.1.3
+1.3.6.1.4.1.3922.1.1.1.37
+1.3.6.1.4.1.3922.1.1.1.38","http://crl-server.orc.com/CRLs/WIDEPOINTNFI5.crl","http://crl-server.orc.com/caCerts/WIDEPOINTNFI5.p7c","http://nfi5.eva.orc.com/",52A2B89934A8F53719D620697496A6EB82A06E13,4DDAC64F5034A13E13F12D8CD37DF5D8AD7AD0E8F4413F5179F72494824A787B
+"CN=ORC NFI CA 3, O=ORC PKI, C=US","CN=WidePoint NFI Root 2, OU=Certification Authorities, O=WidePoint, C=US",780C8CDF8D711D7BD635C6A0D27ED2A35E9E6FF0,2020-02-08 22:23:48,2023-05-15 14:00:00,"1.3.6.1.4.1.3922.1.1.1.12
+1.3.6.1.4.1.3922.1.1.1.18
+1.3.6.1.4.1.3922.1.1.1.19
+1.3.6.1.4.1.3922.1.1.1.20
+1.3.6.1.4.1.3922.1.1.1.3
+1.3.6.1.4.1.3922.1.1.1.37
+1.3.6.1.4.1.3922.1.1.1.38","http://crl-server.orc.com/CRLs/ORCNFI3.crl","http://crl-server.orc.com/caCerts/ORCNFI3.p7c","http://nfi3.eva.orc.com/",84262340DF40DADBA0206EFECF4211B45F7D88C2,B14F8ECF940191BF5175191871FC5652F65F3F441D98442EF7053AA999ADDE6C
+"CN=WidePoint ORC NFI 4, OU=Certification Authorities, O=WidePoint, C=US","CN=WidePoint NFI Root 2, OU=Certification Authorities, O=WidePoint, C=US",3581750BD6E26757BCB9E0A4513DA84946587EBF,2020-02-18 19:33:40,2030-02-18 19:33:40,"1.3.6.1.4.1.3922.1.1.1.12
+1.3.6.1.4.1.3922.1.1.1.18
+1.3.6.1.4.1.3922.1.1.1.19
+1.3.6.1.4.1.3922.1.1.1.20
+1.3.6.1.4.1.3922.1.1.1.3
+1.3.6.1.4.1.3922.1.1.1.37
+1.3.6.1.4.1.3922.1.1.1.38","http://crl.xca.xpki.com/CRLs/XTec_PIVI_CA1.crl","http://aia.xca.xpki.com/AIA/IssuedCertsforXTec_PIVI_CA1.p7c","http://ocsp.xca.xpki.com/ocsp",5A95AEA990A7AEC492134A5B437CF3324F260793,B0F86983F1BBBB3090BC9540951610FCE3B3F17D182954524F1C8BE9AE9C8B92
+"CN=SAFE Bridge CA 02, OU=Certification Authorities, O=SAFE-Biopharma, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",18A4DD0C2B5068BF964E3F333E76821F1594042B,2019-12-17 16:08:43,2021-06-07 21:00:00,"1.3.6.1.4.1.23165.1.27
+1.3.6.1.4.1.23165.1.28
+1.3.6.1.4.1.23165.1.4
+1.3.6.1.4.1.23165.1.5
+1.3.6.1.4.1.23165.1.6","http://sbca2.safe-biopharma.org/sbca/SBCA02.crl","http://sbca2.safe-biopharma.org/sbca/issuedtoSBCA02.p7c","",600319E6C322229F88E0F434BA96FB0DFD00252E,7FDA0C73A6027555C0080CE539A569695144698A42467CBF6E03973CBEBE1F71
+"CN=Trans Sped Mobile eIDAS QCA G2, OU=Individual Subscriber CA, O=Trans Sped SRL, C=RO","CN=SAFE Bridge CA 02, OU=Certification Authorities, O=SAFE-Biopharma, C=US",740000000A68B5F6EDD0A9E34300000000000A,2017-08-23 15:09:25,2023-08-23 15:09:25,"1.3.6.1.4.1.39965.4.1.1","http://www.transsped.ro/crl/ts_mobile_eidas_qca_g2.crl","http://www.transsped.ro/cacerts/ts_mobile_eidas_qca_g2.crt
+http://www.transsped.ro/cacerts/ts_mobile_eidas_qca_g2.p7c","http://ocsp.transsped.ro/",C1A2B6BB919D104065A2C0C550B27DCDFE12CE96,AAD1EB1493F9A42AF657A7CCB2509AD548A68A0F1E1EF05A6200FCFCC5C5912D
+"CN=Exostar Federated Identity Service Root CA 2, OU=Certification Authorities, O=Exostar LLC, C=US","CN=SAFE Bridge CA 02, OU=Certification Authorities, O=SAFE-Biopharma, C=US",74000000089FC31A39140B7475000000000008,2015-10-01 18:10:17,2021-10-01 18:10:17,"1.3.6.1.4.1.13948.1.1.1.23
+1.3.6.1.4.1.13948.1.1.1.24","http://www.fis.evincible.com/fis/public/ERCA2.crl","http://www.fis.evincible.com/fis/public/issuedtoERCA2.p7c","",534D0225DD69AAE7A1820A493156ED1C852C73E4,6CEB878A97087B9BD24341EFC9FC34ABDA3563402331FB4AC4F681E333C683AB
+"CN=Exostar Digital Certificate Service Signing CA 1, O=Exostar UK Limited, C=GB","CN=Exostar Federated Identity Service Root CA 2, OU=Certification Authorities, O=Exostar LLC, C=US",2E00000005C7F6A3B376279574000000000005,2016-05-26 15:21:41,2026-05-26 15:21:41,"1.3.6.1.4.1.13948.1.1.1.23
+1.3.6.1.4.1.13948.1.1.1.24","http://www.dcs.exostar.com/public/ExostarDCSSCA1.crl","http://www.dcs.exostar.com/public/ExostarDCSSCA1.p7c","",83B523775812242D5E3BFF8711289565B3DCA7D7,A32756061D859730249C914D24F008D182506246253A07AF9949B66E9D6A4BB7
+"CN=IdenTrust SAFE-BioPharma CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=SAFE Bridge CA 02, OU=Certification Authorities, O=SAFE-Biopharma, C=US",740000000CF7F6B4249862ECF100000000000C,2018-12-11 19:31:28,2021-12-11 19:31:28,"2.16.840.1.113839.0.100.12.1
+2.16.840.1.113839.0.100.12.2
+2.16.840.1.113839.0.100.12.4
+2.16.840.1.113839.0.100.14.1
+2.16.840.1.113839.0.100.14.2
+2.16.840.1.113839.0.100.15.1
+2.16.840.1.113839.0.100.15.2
+2.16.840.1.113839.0.100.15.4
+2.16.840.1.113839.0.100.2.3
+2.16.840.1.113839.0.100.2.4
+2.16.840.1.113839.0.100.2.5
+2.16.840.1.113839.0.100.2.6
+2.16.840.1.113839.0.100.2.8
+2.16.840.1.113839.0.100.3.1
+2.16.840.1.113839.0.100.3.2
+2.16.840.1.113839.0.100.37.1
+2.16.840.1.113839.0.100.38.1","http://validation.identrust.com/crl/IGCSAFERoot.crl","http://validation.identrust.com/roots/IGCSAFERoot.p7c","http://igc.ocsp.identrust.com",245F753F8A315A83BD0BE8CF70833503F99FD2D2,79CCCCE3524284E2D4191CC662ADE72FB9ED89C39F154CF731D1BE9C0A57064B
+"CN=IGC-SBCA CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=IdenTrust SAFE-BioPharma CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US",400168E7E9F4060FC1261FAAA5F6DCAB,2019-02-13 17:31:35,2025-02-13 17:31:35,"2.16.840.1.113839.0.100.12.1
+2.16.840.1.113839.0.100.12.2
+2.16.840.1.113839.0.100.12.4
+2.16.840.1.113839.0.100.14.1
+2.16.840.1.113839.0.100.14.2
+2.16.840.1.113839.0.100.15.1
+2.16.840.1.113839.0.100.15.2
+2.16.840.1.113839.0.100.15.4
+2.16.840.1.113839.0.100.2.3
+2.16.840.1.113839.0.100.2.4
+2.16.840.1.113839.0.100.2.5
+2.16.840.1.113839.0.100.2.6
+2.16.840.1.113839.0.100.2.8
+2.16.840.1.113839.0.100.3.1
+2.16.840.1.113839.0.100.3.2
+2.16.840.1.113839.0.100.37.1
+2.16.840.1.113839.0.100.38.1","http://validation.identrust.com/crl/IGCSBCA1.crl","http://validation.identrust.com/certs/IGCSBCA1.cer
+http://validation.identrust.com/certs/IGCSBCA1.p7c","http://igc.ocsp.identrust.com",B303B89B02D1A4E0BDABCFA23763295BE2DAAACA,5E514389B12FA2B5A5FA16D3E84268345DF59847F50519FB81F52206DF05BA7C
+"CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",146BC4C37A7753B792AE772067DE692F093C6DF1,2020-02-18 16:08:44,2023-02-18 16:08:44,"1.3.6.1.4.1.24019.1.1.1.1
+1.3.6.1.4.1.24019.1.1.1.2
+1.3.6.1.4.1.24019.1.1.1.23
+1.3.6.1.4.1.24019.1.1.1.24
+1.3.6.1.4.1.24019.1.1.1.3
+1.3.6.1.4.1.24019.1.1.1.4
+1.3.6.1.4.1.24019.1.1.1.5
+1.3.6.1.4.1.24019.1.1.1.6
+1.3.6.1.4.1.24019.1.1.1.7
+1.3.6.1.4.1.24019.1.1.1.8
+1.3.6.1.4.1.24019.1.1.1.9","http://crl.certipath.com/CertiPathBridgeCA-G3.crl","http://aia.certipath.com/CertiPathBridgeCA-G3.p7c","",77D6CF512EC6054E9DDF37A37D83C4955228E21C,0A1E2B36CFBE7DD2421129CD00D374E73BE50DA91524BFBF24FA646F1FA179C2
+"CN=Lockheed Martin Root Certification Authority 2, OU=Certification Authorities, O=Lockheed Martin Corporation, L=Denver, State=Colorado, C=US","CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US",5A2C3A94B0EC6A6F43F02AC04EF59F29,2020-04-22 00:00:00,2021-04-30 23:59:59,"1.3.6.1.4.1.103.100.1.1.3.3
+1.3.6.1.4.1.103.100.1.1.3.4
+1.3.6.1.4.1.103.100.1.1.3.6","http://crl.external.lmco.com/crl/certupd/Lockheed Martin Root Certification Authority 2.crl","http://crl.external.lmco.com/crl/certupd/LMRPKCS2_Lockheed Martin Root Certification Authority 2.p7c","",F72EC29D98CAA8EEFC330848D0D31235BD088EA0,8BE118B18FF6BB74F5E29667EC44186B20ED5A64504D27034FC80B10DBD70DE1
+"CN=Lockheed Martin Certification Authority 4 G2, OU=Certification Authorities, O=Lockheed Martin Corporation, C=US","CN=Lockheed Martin Root Certification Authority 2, OU=Certification Authorities, O=Lockheed Martin Corporation, L=Denver, State=Colorado, C=US",61195244000000000006,2017-04-11 20:13:50,2025-02-11 20:23:50,"1.3.6.1.4.1.103.100.1.1.3.3
+1.3.6.1.4.1.103.100.1.1.3.4
+1.3.6.1.4.1.103.100.1.1.3.6","http://crl.external.lmco.com/crl/certupd/Lockheed Martin Certification Authority 4 G2.crl","http://crl.external.lmco.com/crl/certupd/usapkcs04.us.lmco.com_Lockheed Martin Certification Authority 4 G2.p7c","http://ocsp.external.lmco.com/ocsp",E2A9EE1063DEF70BC095BAEE0215C6FD0B20E4CE,E97EFBDB370A065F3456ABA4F9B02FE2FF70B88BAFF86CD384C3DE60D624C79A
+"CN=Boeing PCA G3, OU=certservers, O=Boeing, C=US","CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US",0C9E4C694D416CC83B47AEA5D3AA0F72,2020-04-22 00:00:00,2021-04-30 23:59:59,"1.3.6.1.4.1.73.15.3.1.11
+1.3.6.1.4.1.73.15.3.1.12","http://crl.boeing.com/crl/Boeing PCA G3.crl","http://crl.boeing.com/crl/BoeingPCAG3.p7c","",F062BFCC913DFD1362ECECCE82E17FBF6FBAEE83,38A0D3A685BE1E81CE3A98759B6F1824BE9363EC6E6A87452CB03D1C73F77933
+"CN=Boeing Medium Assurance Hardware Issuing CA G3, OU=CertServers, O=Boeing, C=US","CN=Boeing PCA G3, OU=certservers, O=Boeing, C=US",61DA556400000000000F,2017-08-29 01:55:57,2027-08-29 02:05:57,"1.3.6.1.4.1.73.15.3.1.11
+1.3.6.1.4.1.73.15.3.1.12","http://crl.boeing.com/crl/Boeing Medium Assurance Hardware Issuing CA G3.crl","http://crl.boeing.com/crl/Boeing Medium Assurance Hardware Issuing CA G3.p7c
+http://crl.boeing.com/crl/Boeing Medium Assurance Hardware Issuing CA G3.crt
+http://crl.boeing.com/crl/Boeing Medium Assurance Hardware Issuing CA G3.cer","",D71B3AFF156C6E5428429975884D9A5EA6F6554D,C97C1E1E174B29B5D0ED60DEE4B8C48690D69F50EA67D421168B88D1A985C131
+"CN=Raytheon Class 3 MASCA, OU=Class3-g2, O=cas, DC=raytheon, DC=com","CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US",1E8C9CC36EBF73C520E4CB8234AD2F5A,2020-06-24 00:00:00,2021-07-31 23:59:59,"1.3.6.1.4.1.1569.10.1.12
+1.3.6.1.4.1.1569.10.1.13
+1.3.6.1.4.1.1569.10.1.14
+1.3.6.1.4.1.1569.10.1.15
+1.3.6.1.4.1.1569.10.1.18
+1.3.6.1.4.1.1569.10.1.19","http://pki.raytheon.com/G2/CRLs/Raytheon_Class3-G2Full1.crl","http://pki.raytheon.com/G2/aia/RaytheonClass3-G2_01.p7c","http://pki.raytheon.com/ocsp/",4F28171D4A30679EDEA7F3271C6CFDB924241F0E,D685469C5A7E2EA388417F40030B8B87FA9FB416087B03F868F64C6C96F469DF
+"CN=NextgenIDRootCA1, OU=Certification Authorities, O=NextgenID, C=US","CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US",18F4F2292FA6E3703C5F52AD4044F44E,2020-02-27 00:00:00,2021-02-28 23:59:59,"1.3.6.1.4.1.49758.1.1.1.3
+1.3.6.1.4.1.49758.1.1.1.4
+1.3.6.1.4.1.49758.1.1.1.5
+1.3.6.1.4.1.49758.1.1.1.6
+1.3.6.1.4.1.49758.1.1.1.7
+1.3.6.1.4.1.49758.1.1.1.8
+1.3.6.1.4.1.49758.1.1.1.9","http://www.nextgenidtrust.com/PKI/CRL/NextgenIDRootCA1.crl","http://www.nextgenidtrust.com/PKI/CRL/NextgenIDRootCA1(1).p7c","",7C96F349497D7ABF22B83FA9768FEE257848E8A8,C3E2C79F3F2916502102EB45499CA785A6392614E80EB2BCDE3605319C470EE9
+"CN=NGIDTrustCA1, OU=Certification Authorities, O=NextgenID, C=US","CN=NextgenIDRootCA1, OU=Certification Authorities, O=NextgenID, C=US",5100000005DF4620DB9E548990000100000005,2017-11-23 22:04:44,2030-11-23 22:14:44,"1.3.6.1.4.1.49758.1.1.1.3
+1.3.6.1.4.1.49758.1.1.1.4
+1.3.6.1.4.1.49758.1.1.1.5
+1.3.6.1.4.1.49758.1.1.1.6
+1.3.6.1.4.1.49758.1.1.1.7
+1.3.6.1.4.1.49758.1.1.1.8
+1.3.6.1.4.1.49758.1.1.1.9","http://www.nextgenidtrust.com/PKI/CRL/NGIDTrustCA1.crl","http://www.nextgenidtrust.com/PKI/CRL/NGIDTrustCA1(2).p7c","http://www.nextgenidtrust.com/PKI/ocsp",463A1A71F0CEA0DB1F0483ECE42903C28D6B6D7C,11A26D11C6BFA856E99E737B530D603F876C758ED512B119B9E2548CD4E0A33E
+"CN=Carillon Federal Services PIV-I CA1, OU=Certification Authorities, O=Carillon Federal Services Inc., C=US","CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US",2EDC463B839F7352087BB161AB23002B,2020-02-27 00:00:00,2021-02-28 23:59:59,"1.3.6.1.4.1.45606.3.1.11
+1.3.6.1.4.1.45606.3.1.12
+1.3.6.1.4.1.45606.3.1.13
+1.3.6.1.4.1.45606.3.1.14
+1.3.6.1.4.1.45606.3.1.20
+1.3.6.1.4.1.45606.3.1.21
+1.3.6.1.4.1.45606.3.1.22","http://pub.carillonfedserv.com/CRL/CFSCA1.crl","http://pub.carillonfedserv.com/CAcerts/CFSCA1.p7c","http://pub.carillonfedserv.com/ocsp",AFF439F001EBDBE7F4A53DC4805CFFC78D1E7C63,E0FA9D352F6E287F60398322AA65DF3215B8F39CE76895F4B81F2ED3DF918E65
+"CN=Carillon PKI Services G2 Root CA 2, OU=Certification Authorities, O=Carillon Information Security Inc., C=CA","CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US",23C16E3BA51D710489960D139C1CC14B,2020-02-27 00:00:00,2021-02-28 23:59:59,"1.3.6.1.4.1.25054.3.1.11
+1.3.6.1.4.1.25054.3.1.12
+1.3.6.1.4.1.25054.3.1.13
+1.3.6.1.4.1.25054.3.1.14
+1.3.6.1.4.1.25054.3.1.20
+1.3.6.1.4.1.25054.3.1.21
+1.3.6.1.4.1.25054.3.1.22
+1.3.6.1.4.1.25054.3.1.30
+1.3.6.1.4.1.25054.3.1.31","http://pub.carillon.ca/CRL/CISG2RCA2.crl","http://pub.carillon.ca/CAcerts/CISG2RCA2.p7c","",5283E2EA0EE49B1DEB93841E81B1B5B524B1E0B5,5D761E4465B4687D28C2FC07A226A461FDE5D39F0408E541B0CD17A6FF17FC52
+"CN=Carillon PKI Services CA 1, OU=Certification Authorities, O=Carillon Information Security Inc., C=CA","CN=Carillon PKI Services G2 Root CA 2, OU=Certification Authorities, O=Carillon Information Security Inc., C=CA",08E5B9030A62,2020-01-20 20:25:13,2027-10-23 20:25:13,"1.3.6.1.4.1.25054.3.1.11
+1.3.6.1.4.1.25054.3.1.12
+1.3.6.1.4.1.25054.3.1.13
+1.3.6.1.4.1.25054.3.1.14
+1.3.6.1.4.1.25054.3.1.20
+1.3.6.1.4.1.25054.3.1.21
+1.3.6.1.4.1.25054.3.1.22
+1.3.6.1.4.1.25054.3.1.30
+1.3.6.1.4.1.25054.3.1.31","http://pub.carillon.ca/CRL/CISCA1.crl","http://pub.carillon.ca/CAcerts/CISCA1.p7c","http://pub.carillon.ca/CISCA1-ocsp",7A00A3D810F25A565194317E0CF57DAE98CA1815,97DF45717C7925208940D3AF9F98BF9BA62CFC2115CA1E2AF37A12D725FBBE4E
+"CN=Carillon PKI Services CA 2, OU=Certification Authorities, O=Carillon Information Security Inc., C=CA","CN=Carillon PKI Services G2 Root CA 2, OU=Certification Authorities, O=Carillon Information Security Inc., C=CA",32BCA209D5BA,2020-01-20 20:32:29,2033-01-20 20:32:29,"1.3.6.1.4.1.25054.3.1.11
+1.3.6.1.4.1.25054.3.1.12
+1.3.6.1.4.1.25054.3.1.13
+1.3.6.1.4.1.25054.3.1.14
+1.3.6.1.4.1.25054.3.1.20
+1.3.6.1.4.1.25054.3.1.21
+1.3.6.1.4.1.25054.3.1.22
+1.3.6.1.4.1.25054.3.1.30
+1.3.6.1.4.1.25054.3.1.31","","http://pub.carillon.ca/CAcerts/CISCA2.p7c","",DB59EE7F04F3BB66FE7EBD3710B0F3161226E03E,DA29929F5CE2F85B36862183F71BD86598A0B681E57FD62284B657F7577F4CCD
+"CN=Ministerie van Defensie PKIoverheid Organisatie Persoon CA - G3, Organization Identifier=NTRNL-27370985, O=Ministerie van Defensie, C=NL","CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US",7F157CEE22BB7E2CCE9BF336B65AF492,2020-02-27 00:00:00,2021-02-28 23:59:59,"2.16.528.1.1003.1.2.5.1
+2.16.528.1.1003.1.2.5.2
+2.16.528.1.1003.1.2.5.3","http://crls.ca.pkidefensie.nl/mindef-ca-3.crl","http://certs.ca.pkidefensie.nl/mindef-ca-3.cer","http://ocsp.ca.pkidefensie.nl",7D0FB042DF05A08FA7B2303346A3F1758F314A41,E696D8E459D5582A2D1A384497550A2621DE8724D7C31DF8A374130E37DCF61A
+"CN=Northrop Grumman Corporate Root CA-G2, OU=Northrop Grumman Information Technology, O=Northrop Grumman Corporation, C=US","CN=CertiPath Bridge CA - G3, OU=Certification Authorities, O=CertiPath, C=US",69038AB433BA0944FDF98830D168B1C3,2020-02-27 00:00:00,2021-02-28 23:59:59,"1.3.6.1.4.1.16334.509.2.10
+1.3.6.1.4.1.16334.509.2.11
+1.3.6.1.4.1.16334.509.2.7
+1.3.6.1.4.1.16334.509.2.8
+1.3.6.1.4.1.16334.509.2.9","http://certdata.northropgrumman.com/certdata/crls/RevokedByNorthropGrummanCorporateRootCA-G2.crl","http://certdata.northropgrumman.com/certdata/p7c/IssuedToNorthropGrummanCorporateRootCA-G2.p7c","",14F222F9DA0BED89BEFF0028BB0724A66515EFC0,46225DF50839EA39FAF1D62BFAC5E1DDBDC48C0A9F32316D645B36035CAF4D2E
+"CN=Northrop Grumman Corporate Signing CA-G2, OU=Northrop Grumman Information Technology, O=Northrop Grumman Corporation, C=US","CN=Northrop Grumman Corporate Root CA-G2, OU=Northrop Grumman Information Technology, O=Northrop Grumman Corporation, C=US",61848400000000000002,2013-10-11 18:56:36,2026-10-11 19:06:36,"1.3.6.1.4.1.16334.509.2.10
+1.3.6.1.4.1.16334.509.2.11
+1.3.6.1.4.1.16334.509.2.7
+1.3.6.1.4.1.16334.509.2.8
+1.3.6.1.4.1.16334.509.2.9","http://certdata.northropgrumman.com/certdata/crls/RevokedByNorthropGrummanCorporateSigningCA-G2.crl","http://certdata.northropgrumman.com/certdata/p7c/IssuedByNorthropGrummanCorporateRootCA-G2.p7c","http://ocsp.northropgrumman.com
+http://ocsp.northropgrumman.com/",E454AC18FC9AE0173C365E8767B679CFE036E63F,2211C0B4A740A301C7FC241CAB37B2E3FC3E190D14F433892C34DF855B6548B2
+"CN=DigiCert Federated ID L3 CA, OU=www.digicert.com, O=DigiCert Inc, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",17EAFFEEBC2F01CF5538B875D6B6B584FA88E27F,2019-12-16 16:48:18,2022-02-28 22:00:00,"2.16.840.1.114412.1.11
+2.16.840.1.114412.4.2
+2.16.840.1.114412.4.3.2","http://crl3.digicert.com/DigiCertFederatedIDL3CA.crl
+http://crl4.digicert.com/DigiCertFederatedIDL3CA.crl","http://cacerts.digicert.com/DigiCertFederatedIDL3CA.crt","http://ocsp.digicert.com",28F059E2DFFAC9DE78FB7A1670C082DAD2522D3B,9EB1E7AB3D9559088B9926A6569CFB645FBDC72A758815B1B1C78A0159FB6863
+"OU=GPO PCA, OU=Certification Authorities, OU=Government Printing Office, O=U.S. Government, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",195CB9376D0A7DEA78AB51500FD5F74A85A5F602,2020-06-25 13:55:14,2023-06-25 16:00:00,"2.16.840.1.101.3.2.1.17.1
+2.16.840.1.101.3.2.1.17.2
+2.16.840.1.101.3.2.1.17.3","http://www.gpo-fbca-crls.ois.gpo.gov/GPO-PCA-CRLa4.crl
+http://www.gpo-fbca-crls.ois.gpo.gov/GPO-PCA-CRLc4.crl","http://www.gpo-fbca-crls.ois.gpo.gov/GPO-PCA-CACertificates.p7c","http://www.ocsp.gpo.gov",52DB35C57036A5641BB8DD6B552391A7815681DD,2F2836417BF38530F2DDDFBD5EA8A069E629D07422C292614D425F1AD638910F
+"OU=GPO SCA, OU=Certification Authorities, OU=Government Printing Office, O=U.S. Government, C=US","OU=GPO PCA, OU=Certification Authorities, OU=Government Printing Office, O=U.S. Government, C=US",40D86A4F,2015-10-14 14:20:06,2025-10-14 14:37:07,"2.16.840.1.101.3.2.1.17.1
+2.16.840.1.101.3.2.1.17.2
+2.16.840.1.101.3.2.1.17.3","http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc9.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRL1.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc22.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc8.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc17.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc13.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc34.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc11.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc24.crl
+http://gpo-crl.ois.gpo.gov/GPO-SCA-CRLc33.crl","http://gpo-crl.ois.gpo.gov/GPO-SCA-CACertificates.p7c","http://www.ocsp.gpo.gov",B914FDA0C3A0EE78F8FA284D3C82288CE2F60EA5,1C58A3FA3402790C1A85E3ADA3E50A1F64EEAC925B0505050585182C66559BAA
+"CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",1659BCEB348E6BBD33832C8284C35D7975C8D3C6,2019-12-17 16:42:34,2021-08-21 21:00:00,"2.16.840.1.113839.0.100.12.1
+2.16.840.1.113839.0.100.12.2
+2.16.840.1.113839.0.100.12.3
+2.16.840.1.113839.0.100.12.4
+2.16.840.1.113839.0.100.14.1
+2.16.840.1.113839.0.100.14.2
+2.16.840.1.113839.0.100.15.1
+2.16.840.1.113839.0.100.15.2
+2.16.840.1.113839.0.100.15.3
+2.16.840.1.113839.0.100.15.4
+2.16.840.1.113839.0.100.18.0
+2.16.840.1.113839.0.100.18.1
+2.16.840.1.113839.0.100.18.2
+2.16.840.1.113839.0.100.19.1
+2.16.840.1.113839.0.100.2.1
+2.16.840.1.113839.0.100.2.2
+2.16.840.1.113839.0.100.2.3
+2.16.840.1.113839.0.100.2.4
+2.16.840.1.113839.0.100.2.5
+2.16.840.1.113839.0.100.2.6
+2.16.840.1.113839.0.100.2.7
+2.16.840.1.113839.0.100.2.8
+2.16.840.1.113839.0.100.20.1
+2.16.840.1.113839.0.100.3.1
+2.16.840.1.113839.0.100.3.2
+2.16.840.1.113839.0.100.3.3
+2.16.840.1.113839.0.100.3.4
+2.16.840.1.113839.0.100.3.5
+2.16.840.1.113839.0.100.3.6
+2.16.840.1.113839.0.100.37.1
+2.16.840.1.113839.0.100.37.2
+2.16.840.1.113839.0.100.38.1
+2.16.840.1.113839.0.100.38.2","http://validation.identrust.com/crl/igcrootca1.crl","http://validation.identrust.com/roots/igcrootca1.p7c
+http://validation.identrust.com/roots/icgrootca1.p7c","http://igc.ocsp.identrust.com
+http://public.ocsp.identrust.com",2800EA6ECDEB8EFC1CF4C042D712E8622E0CBB1A,3BA589C3522A5D8EF8626E103579F47AD459A5F670BF8B7B0C0FA6C60E5FF3BF
+"CN=IGC Server CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US",0A01428000000145D8B0D70900000002,2014-04-14 17:25:06,2024-04-14 17:25:06,"2.16.840.1.113839.0.100.37.2
+2.16.840.1.113839.0.100.38.2","http://validation.identrust.com/crl/igcserverca1.crl","http://validation.identrust.com/certs/igcserverca1.cer
+http://validation.identrust.com/certs/igcserverca1.p7c","http://igc.ocsp.identrust.com",97D2C796C9B55840138FF83723BE6E12FE586DA8,6A3D76D29A2AC90E27ED552B95DED9913A93B2CEAAFF6F32B8523EF26D9B254B
+"CN=IGC CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US",40015FA201B274A34C807C9D15C42D21,2017-11-09 18:19:01,2027-11-07 18:19:01,"2.16.840.1.113839.0.100.12.1
+2.16.840.1.113839.0.100.12.2
+2.16.840.1.113839.0.100.12.3
+2.16.840.1.113839.0.100.12.4
+2.16.840.1.113839.0.100.14.1
+2.16.840.1.113839.0.100.14.2
+2.16.840.1.113839.0.100.15.1
+2.16.840.1.113839.0.100.15.2
+2.16.840.1.113839.0.100.15.3
+2.16.840.1.113839.0.100.15.4
+2.16.840.1.113839.0.100.18.0
+2.16.840.1.113839.0.100.18.1
+2.16.840.1.113839.0.100.18.2
+2.16.840.1.113839.0.100.19.1
+2.16.840.1.113839.0.100.2.1
+2.16.840.1.113839.0.100.2.2
+2.16.840.1.113839.0.100.2.3
+2.16.840.1.113839.0.100.2.4
+2.16.840.1.113839.0.100.2.5
+2.16.840.1.113839.0.100.2.6
+2.16.840.1.113839.0.100.2.7
+2.16.840.1.113839.0.100.2.8
+2.16.840.1.113839.0.100.20.1
+2.16.840.1.113839.0.100.3.1
+2.16.840.1.113839.0.100.3.2
+2.16.840.1.113839.0.100.3.3
+2.16.840.1.113839.0.100.3.4
+2.16.840.1.113839.0.100.3.5
+2.16.840.1.113839.0.100.3.6
+2.16.840.1.113839.0.100.37.1
+2.16.840.1.113839.0.100.38.1","http://validation.identrust.com/crl/igcca1.crl","http://validation.identrust.com/certs/igcca1.cer
+http://validation.identrust.com/certs/igcca1.p7c
+http://validation.identrust.com/certs/igcserverca1.cer","http://igc.ocsp.identrust.com",CBF0C1E5C149E1F9E010EA7753539A0422221219,6AB50C761E3EE72C34DB75C2F106E03AF15E2D8E2F6A672EC8FF0966BFD42E78
+"CN=VA Patient Direct CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US",400163F5199E5710960D035A1B19DD78,2018-06-12 17:44:46,2021-06-12 17:44:46,"2.16.840.1.113839.0.100.3.3
+2.16.840.1.113839.0.100.3.4
+2.16.840.1.113839.0.100.3.5
+2.16.840.1.113839.0.100.3.6","http://validation.identrust.com/crl/vapatientCA1.crl","http://validation.identrust.com/roots/vapatientCA1.p7c","http://igcca1.ocsp.identrust.com",6B8B794B1BDAB1FA0D159FD57559FCE08F98B182,69EBFE147B4A6F64F0CEE3D820348B0F8CD9145D2B1DAE5BE28D30A9EC213317
+"CN=VA Provider Direct CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US",400163F519F3D0DDA70F20843101EC80,2018-06-12 17:45:08,2021-06-12 17:45:08,"2.16.840.1.113839.0.100.3.3
+2.16.840.1.113839.0.100.3.4
+2.16.840.1.113839.0.100.3.5
+2.16.840.1.113839.0.100.3.6","http://validation.identrust.com/crl/vaproviderCA1.crl","http://validation.identrust.com/roots/vaproviderCA1.p7c","http://igcca1.ocsp.identrust.com",176CB224525D83FA1030BC75323917D0244CAD40,3C51959BC672257B494BB412D9FE1FB02007E42FBCFAB8B6D3FD840DDC12D8A6
+"CN=Booz Allen Hamilton PIVi CA 01, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US",40016008CA589A3FA917969168F025D7,2017-11-29 17:19:26,2027-11-27 17:19:26,"2.16.840.1.113839.0.100.12.1
+2.16.840.1.113839.0.100.12.2
+2.16.840.1.113839.0.100.12.3
+2.16.840.1.113839.0.100.12.4
+2.16.840.1.113839.0.100.14.1
+2.16.840.1.113839.0.100.14.2
+2.16.840.1.113839.0.100.15.1
+2.16.840.1.113839.0.100.15.2
+2.16.840.1.113839.0.100.18.0
+2.16.840.1.113839.0.100.18.1
+2.16.840.1.113839.0.100.18.2
+2.16.840.1.113839.0.100.19.1
+2.16.840.1.113839.0.100.2.1
+2.16.840.1.113839.0.100.2.2
+2.16.840.1.113839.0.100.20.1
+2.16.840.1.113839.0.100.3.1
+2.16.840.1.113839.0.100.3.2
+2.16.840.1.113839.0.100.37.1
+2.16.840.1.113839.0.100.38.1","http://validation.identrust.com/crl/bahpivica01.crl","http://validation.identrust.com/roots/bahpivica01.p7c","http://igc.ocsp.identrust.com",007960B264831B9C6244559DB6F7A7F39291032B,4E68EADCEB3DC98FF3AFDF34030BE2272A820A9B9AD5E441EE888A9FFFE552B3
+"CN=IGC Server CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US",76649764AB0AE0ABE7D9A4418B0882EA,2014-04-14 17:25:06,2024-04-14 17:25:06,"2.16.840.1.113839.0.100.37.2
+2.16.840.1.113839.0.100.38.2","http://validation.identrust.com/crl/igcserverca1.crl","http://validation.identrust.com/certs/igcserverca1.cer
+http://validation.identrust.com/certs/igcserverca1.p7c","http://igc.ocsp.identrust.com",51923F049D626EF98C43FDCA5C9003102D963111,7A6DB3693BC4BA02D4197821B534CE4A587CDEE51CE5FA7493DE8DE6090AA601
+"CN=IGC CA 1, OU=IdenTrust Global Common, O=IdenTrust, C=US","CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US",00856425E9C0D90658B672F0FF77758839,2014-04-14 16:31:00,2024-04-14 16:31:00,"2.16.840.1.113839.0.100.12.1
+2.16.840.1.113839.0.100.12.2
+2.16.840.1.113839.0.100.14.1
+2.16.840.1.113839.0.100.14.2
+2.16.840.1.113839.0.100.15.1
+2.16.840.1.113839.0.100.15.2
+2.16.840.1.113839.0.100.18.0
+2.16.840.1.113839.0.100.18.1
+2.16.840.1.113839.0.100.18.2
+2.16.840.1.113839.0.100.19.1
+2.16.840.1.113839.0.100.2.1
+2.16.840.1.113839.0.100.2.2
+2.16.840.1.113839.0.100.20.1
+2.16.840.1.113839.0.100.3.1
+2.16.840.1.113839.0.100.3.2
+2.16.840.1.113839.0.100.37.1
+2.16.840.1.113839.0.100.38.1","http://validation.identrust.com/crl/igcca1.crl","http://validation.identrust.com/certs/igcca1.cer
+http://validation.identrust.com/certs/igcca1.p7c
+http://validation.identrust.com/certs/igcserverca1.cer","http://igc.ocsp.identrust.com",8C7EE846AD401680E750B2EFD1D560BF9A41969A,50DA52AE7580CE15F163E26A2AF4278D42CA2AAF9AE827CC968A2101282A7CFB
+"CN=Leidos FBCA Cloud PKI CA-1, O=Leidos","CN=IdenTrust Global Common Root CA 1, O=IdenTrust, C=US",0A014280000001586E24116700000002,2016-11-16 17:16:47,2026-11-16 17:16:47,"2.16.840.1.113839.0.100.12.1
+2.16.840.1.113839.0.100.12.2
+2.16.840.1.113839.0.100.12.3
+2.16.840.1.113839.0.100.12.4
+2.16.840.1.113839.0.100.2.1
+2.16.840.1.113839.0.100.2.2
+2.16.840.1.113839.0.100.2.3
+2.16.840.1.113839.0.100.2.4
+2.16.840.1.113839.0.100.2.5
+2.16.840.1.113839.0.100.2.6
+2.16.840.1.113839.0.100.2.7
+2.16.840.1.113839.0.100.2.8
+2.16.840.1.113839.0.100.3.1
+2.16.840.1.113839.0.100.3.2
+2.16.840.1.113839.0.100.3.3
+2.16.840.1.113839.0.100.3.4
+2.16.840.1.113839.0.100.3.5
+2.16.840.1.113839.0.100.3.6","http://validation.identrust.com/crl/igcleidosca1.crl","http://validation.identrust.com/roots/igcleidosCA1.p7c","http://igc.ocsp.identrust.com
+http://igcca1.ocsp.identrust.com",AB05F855DCB2B2DA8E9A3CC3E9773F7F22291FE7,AEAAE218BF167AB300A271F1D9D404113D67953E6A9957CCAA75E5A642594220
+"CN=STRAC Bridge Root Certification Authority, OU=STRAC PKI Trust Infrastructure, O=STRAC, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",1232058AE7987CC9FF3DAA78C7B80813B840E12D,2019-12-17 16:49:45,2022-02-14 22:00:00,"1.3.6.1.4.1.39789.2.1.5.1
+1.3.6.1.4.1.39789.2.1.5.10
+1.3.6.1.4.1.39789.2.1.5.11
+1.3.6.1.4.1.39789.2.1.5.2
+1.3.6.1.4.1.39789.2.1.5.3
+1.3.6.1.4.1.39789.2.1.5.4
+1.3.6.1.4.1.39789.2.1.5.5
+1.3.6.1.4.1.39789.2.1.5.6
+1.3.6.1.4.1.39789.2.1.5.7
+1.3.6.1.4.1.39789.2.1.5.8
+1.3.6.1.4.1.39789.2.1.5.9","http://pki.strac.org/bridge/crl/STRACBridgeRootCA.crl","http://pki.strac.org/bridge/certificates/STRACBridgeRootCA.p7c","http://certstatus.strac.org",C6D4D588000E823CFAF2ECF551EBCD3827FD71B6,2AE03A84585BCE758336AD457896B60CE42DF883A261D53926755CFAD27CE17C
+"CN=FTI Certification Authority, OU=FTI PKI Trust Infrastructure, O=Foundation for Trusted Identity, C=US","CN=STRAC Bridge Root Certification Authority, OU=STRAC PKI Trust Infrastructure, O=STRAC, C=US",00C1,2020-01-09 01:31:47,2023-01-08 01:31:47,"1.3.6.1.4.1.47951.2.2.5.1
+1.3.6.1.4.1.47951.2.2.5.10
+1.3.6.1.4.1.47951.2.2.5.11
+1.3.6.1.4.1.47951.2.2.5.2
+1.3.6.1.4.1.47951.2.2.5.3
+1.3.6.1.4.1.47951.2.2.5.4
+1.3.6.1.4.1.47951.2.2.5.5
+1.3.6.1.4.1.47951.2.2.5.6
+1.3.6.1.4.1.47951.2.2.5.7
+1.3.6.1.4.1.47951.2.2.5.8
+1.3.6.1.4.1.47951.2.2.5.9","http://pki.fti.org/fti_CA/crl/FTICA.crl
+http://pki.fti.org/fti_ca/crl/FTICA.crl","http://pki.fti.org/fti_ca/certificates/FTICA.p7c","http://certstatus.fti.org",F012C16CFEDA614C5CA43E464C91E316F5067933,04EEE74AE44BFCBF1E0307E7902152CFCC145E183377A93625471582E030DF3D
+"OU=Entrust Managed Services NFI Root CA, OU=Certification Authorities, O=Entrust, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",1965197BF91F27410579481CEF24C85278720F30,2019-12-16 17:11:11,2020-11-16 22:00:00,"2.16.840.1.114027.200.3.10.7.1
+2.16.840.1.114027.200.3.10.7.13
+2.16.840.1.114027.200.3.10.7.14
+2.16.840.1.114027.200.3.10.7.15
+2.16.840.1.114027.200.3.10.7.16
+2.16.840.1.114027.200.3.10.7.2
+2.16.840.1.114027.200.3.10.7.3
+2.16.840.1.114027.200.3.10.7.4
+2.16.840.1.114027.200.3.10.7.6
+2.16.840.1.114027.200.3.10.7.7
+2.16.840.1.114027.200.3.10.7.8
+2.16.840.1.114027.200.3.10.7.9","http://nfirootweb.managed.entrust.com/CRLs/NFIRootCA2.crl","http://nfirootweb.managed.entrust.com/AIA/CertsIssuedToNFIRootCA.p7c","http://nfiocsp.managed.entrust.com",313F87F0EB4F8E6C658F5E66F58764282C54FBA4,9DF71795295E6EE7DDC4BC660C239DB4E229AFEEF84229643D8FBD6CD4D4212C
+"OU=Entrust NFI Medium Assurance SSP CA, OU=Certification Authorities, O=Entrust, C=US","OU=Entrust Managed Services NFI Root CA, OU=Certification Authorities, O=Entrust, C=US",4AA8B9EA,2017-05-16 14:31:35,2027-11-16 15:01:35,"2.16.840.1.114027.200.3.10.7.1
+2.16.840.1.114027.200.3.10.7.13
+2.16.840.1.114027.200.3.10.7.14
+2.16.840.1.114027.200.3.10.7.15
+2.16.840.1.114027.200.3.10.7.16
+2.16.840.1.114027.200.3.10.7.2
+2.16.840.1.114027.200.3.10.7.3
+2.16.840.1.114027.200.3.10.7.4
+2.16.840.1.114027.200.3.10.7.6
+2.16.840.1.114027.200.3.10.7.7
+2.16.840.1.114027.200.3.10.7.8
+2.16.840.1.114027.200.3.10.7.9","http://nfimediumsspweb.managed.entrust.com/CRLs/NFIMEDIUMSSPCA1.crl
+http://crl01.xpki.com/CRLs/NFIMEDIUMSSPCA1.crl
+http://nfimediumsspweb.managed.entrust.com/CRLs/NFIMEDIUMSSPCAc742.crl","http://aia.xpki.com/AIA/CertsIssuedToNFIMediumSSPCA.p7c
+http://nfimediumsspweb.managed.entrust.com/AIA/CertsIssuedToNFIMediumSSPCA.p7c","http://ocsp.xpki.com
+http://nfiocsp.managed.entrust.com",4B8818EDC75E6983904EE71513C85E165F2D897C,4347E967EBF9F986DE1E98609C2001E046E99A5F3EA73AFFB146FC9DE77DBF6B
+"CN=TSCP SHA256 Bridge CA, OU=CAs, O=TSCP Inc., C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",12AEA252FFC8A1C961E4EF0E7529F8E88D4DAA33,2019-12-18 18:02:15,2022-08-06 21:00:00,"1.3.6.1.4.1.38099.1.1.1.1
+1.3.6.1.4.1.38099.1.1.1.12
+1.3.6.1.4.1.38099.1.1.1.13
+1.3.6.1.4.1.38099.1.1.1.2
+1.3.6.1.4.1.38099.1.1.1.3
+1.3.6.1.4.1.38099.1.1.1.4
+1.3.6.1.4.1.38099.1.1.1.5
+1.3.6.1.4.1.38099.1.1.1.6
+1.3.6.1.4.1.38099.1.1.1.7","http://tscp-crl.symauth.com/tscpbcasha256.crl","http://tscp-aia.symauth.com/IssuedTo-tscpbcasha256.p7c","",DB3F9CCEB6C6BE4C03E0997070D09E7E0E7EE38A,DF1F7F0E84874CA7A47F92B661E090EEC9F71BBE139492A6B0AD52D0641D5726
+"CN=Carillon Federal Services PIV-I CA2, OU=Certificate Authorities, O=Carillon Federal Services Inc., C=US","CN=TSCP SHA256 Bridge CA, OU=CAs, O=TSCP Inc., C=US",3F99D81464DC067EF88E16B0B5D5EA30,2020-04-22 00:00:00,2021-04-21 23:59:59,"1.3.6.1.4.1.45606.3.1.11
+1.3.6.1.4.1.45606.3.1.12
+1.3.6.1.4.1.45606.3.1.13
+1.3.6.1.4.1.45606.3.1.14
+1.3.6.1.4.1.45606.3.1.20
+1.3.6.1.4.1.45606.3.1.21
+1.3.6.1.4.1.45606.3.1.22","http://pub.carillonfedserv.com/CRL/CFSCA2.crl","http://pub.carillonfedserv.com/CAcerts/CFSCA1.p7c
+http://pub.carillonfedserv.com/CAcerts/CFSCA2.p7c","http://pub.carillonfedserv.com/ocsp",352F268667640942E57F834F3691372A24109E2E,0DA1983B1261C315CC87AA0B41B0EE89F9426A713BE89BD0B5F0E52F0B2E0047
+"CN=Fortior Solutions Intermediate CA 2018, OU=Certificate Authorities, O=Fortior Solutions, C=US","CN=TSCP SHA256 Bridge CA, OU=CAs, O=TSCP Inc., C=US",3CD4087A04ABD3ED749D9C3CB6AD7CF9,2020-01-23 00:00:00,2021-01-22 23:59:59,"1.3.6.1.4.1.38948.2.1.2.1
+1.3.6.1.4.1.38948.2.1.2.10
+1.3.6.1.4.1.38948.2.1.2.11
+1.3.6.1.4.1.38948.2.1.2.2
+1.3.6.1.4.1.38948.2.1.2.4
+1.3.6.1.4.1.38948.2.1.2.5
+1.3.6.1.4.1.38948.2.1.2.7
+1.3.6.1.4.1.38948.2.1.2.8
+1.3.6.1.4.1.38948.2.1.2.9","http://pki-crl.symauth.com/FortiorSolutions/FortiorSolutionsICA2018.crl","http://cacer.symauth.com/mpki/FortiorSolutionsICA2018.p7c","http://pki-ocsp.symauth.com",000EA5B4B63F39D083BD5A0777CA334D6FF58C94,0C0B403CBD67D0CC96FA5A56D8ED6562C17316B7A8B458093B4FD9A902DC6D5A
+"CN=FS-Content Signing CA 2018, OU=PKI, O=Fortior Solutions, C=US","CN=Fortior Solutions Intermediate CA 2018, OU=Certificate Authorities, O=Fortior Solutions, C=US",15185EF9429F018921AF3FABCD0701EA,2018-07-10 00:00:00,2028-07-09 23:59:59,"1.3.6.1.4.1.38948.2.1.2.10
+1.3.6.1.4.1.38948.2.1.2.11
+1.3.6.1.4.1.38948.2.1.2.9","","","",2EE06026CCD89BDA50807B54228BF2C4F124C24E,CDE4991353C87E2B48468A26E3ACF8AA7DCC264C2A6CF3D64911EC5C240D06A3
+"CN=FS TSCP CA 2018C, OU=PKI, O=Fortior Solutions, C=US","CN=Fortior Solutions Intermediate CA 2018, OU=Certificate Authorities, O=Fortior Solutions, C=US",4E8BEF420779F3EB6AD0DE9124952857,2018-07-10 00:00:00,2028-07-09 23:59:59,"1.3.6.1.4.1.38948.2.1.2.1
+1.3.6.1.4.1.38948.2.1.2.10
+1.3.6.1.4.1.38948.2.1.2.11
+1.3.6.1.4.1.38948.2.1.2.2
+1.3.6.1.4.1.38948.2.1.2.4
+1.3.6.1.4.1.38948.2.1.2.5
+1.3.6.1.4.1.38948.2.1.2.7
+1.3.6.1.4.1.38948.2.1.2.8
+1.3.6.1.4.1.38948.2.1.2.9","http://onsite-crl.pki.digicert.com/FortiorSolutionsFSTSCPCA2018C/LatestCRL.crl","http://cacer.symauth.com/mpki/FortiorTSCPCA2018C.p7c","http://ssp-ocsp.symauth.com",33F43E35A3F72BBDA1D2C7FF5F24DA0D43E587F2,3F5B7706FE4C1A6C4D8F20EEF7EA9BB39A7446CF1047BB03A16B10E209C9977A
+"CN=Alexion Pharmaceuticals Issue 2 CA, OU=CAs, O=Alexion Pharmaceuticals, C=US","CN=TSCP SHA256 Bridge CA, OU=CAs, O=TSCP Inc., C=US",477BB79A8D56C62D2F7EDBD31BC8F895,2020-01-23 00:00:00,2021-01-22 23:59:59,"1.3.6.1.4.1.46105.1.1.1.7","http://pki-crl.symauth.com/ca_1e66febad947306a6a338bb6f7971bca/LatestCRL.crl","http://cacer.symauth.com/mpki/AlexionIssuingCA2.p7c","http://pki-ocsp.symauth.com",2D7B753E7AEE8A31CCF77FC6B1F6FF48A15DEBBA,146D2BEF75392397DD51A8753F8FA173B792BF71A2C8337F6350BCBB19687471
+"CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",14DA7E9398FD8EA4DA9BD47D792E9D81B1CDC42D,2019-12-18 14:45:14,2020-10-25 21:00:00,"2.16.840.1.113733.1.7.23.3.1.14
+2.16.840.1.113733.1.7.23.3.1.15
+2.16.840.1.113733.1.7.23.3.1.17
+2.16.840.1.113733.1.7.23.3.1.18
+2.16.840.1.113733.1.7.23.3.1.20
+2.16.840.1.113733.1.7.23.3.1.36
+2.16.840.1.113733.1.7.23.3.1.6
+2.16.840.1.113733.1.7.23.3.1.7
+2.16.840.1.113733.1.7.23.3.1.8","http://ssp-crl.symauth.com/STNSSP/Class3SSPCAG3.crl","http://ssp-aia.symauth.com/STNSSP/Certs_issued_to_Class3SSPCA-G3.p7c
+http://ssp-aia.symauth.com/STNSSP/Certs_issued_to_Class3SSPCA-G3.p7c","http://ssp-ocsp.symauth.com",A99A0D6510B59B6DC92270EAE1F24FBC21D2DCCE,C0F74D740D4D3EB02F97D954540C83FE0C5384FAD44ED04EDB2868E7BE3195B6
+"CN=RAPIDGate-Premier Device CA, O=Eid Passport, Inc., C=US","CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US",7F70E7CA4D45EA30D19ABF0053132F6D,2017-08-31 00:00:00,2020-12-04 23:59:59,"2.16.840.1.113733.1.7.23.3.1.20
+2.16.840.1.113733.1.7.23.3.1.8","http://onsitecrl.verisign.com/EidPassportIncRAPIDGatePremierContentSigner/LatestCRL.crl","http://ssp-aia.symauth.com/VTNSSP/EID-Prem-Device-CA.p7c","http://ssp-ocsp.symauth.com",E4B64E107921BDF946DC58BD3E2D318E7C7EF36E,91346F838DCD82BDD8F2355F1AC358B132D902BC889E283990B105402F34C7FE
+"CN=Senate PIV-I Device CA G4, OU=Office of the Sergeant at Arms, OU=U.S. Senate, O=U.S. Government, C=US","CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US",2879814EEF5B5F6E7BA35946CA23A988,2016-08-02 00:00:00,2024-09-28 23:59:59,"2.16.840.1.113733.1.7.23.3.1.20
+2.16.840.1.113733.1.7.23.3.1.36
+2.16.840.1.113733.1.7.23.3.1.8","http://onsite-crl.pki.digicert.com/USSenateSSPPIVIContentSignerG4/LatestCRL.crl
+http://onsitecrl.verisign.com/USSenateSSPPIVIContentSignerG4/LatestCRL.crl","http://ssp-aia.symauth.com/VTNSSP/USSenate-Device-G4.p7c","http://ssp-ocsp.symauth.com",518D3938957B1B550FBD579C5B90A737728083F3,F5D8CB624DD6E283645B3C3383D905529E8D538C1535FBB75F3AED36AE9D19AE
+"CN=Eid Passport LRA 2 CA, OU=Eid Passport PIV-I LRA Network, O=Eid Passport, Inc., C=US","CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US",74FA80B580B11F82CDE84EF3AD8E36A4,2015-03-10 00:00:00,2024-09-28 23:59:59,"2.16.840.1.113733.1.7.23.3.1.14
+2.16.840.1.113733.1.7.23.3.1.15
+2.16.840.1.113733.1.7.23.3.1.17
+2.16.840.1.113733.1.7.23.3.1.18
+2.16.840.1.113733.1.7.23.3.1.6
+2.16.840.1.113733.1.7.23.3.1.7","http://onsitecrl.verisign.com/EiDPassportIncRAPIDGatePIVInteroperableLRA2/LatestCRL.crl","http://ssp-aia.symauth.com/VTNSSP/EID-LRA-CA2.p7c","http://ssp-ocsp.symauth.com",0335E3670106DA48DB61E00665FA16F8D8C110AE,6FD402F1760CBF48A3749840FBB065397F63572843C86B8BC49FCEFBBEE6E3D7
+"CN=RAPIDGate-Premier CA, O=Eid Passport, Inc., C=US","CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US",3C3FE36894D0802C73CB31DD3131490B,2017-08-31 00:00:00,2020-12-04 23:59:59,"2.16.840.1.113733.1.7.23.3.1.14
+2.16.840.1.113733.1.7.23.3.1.15
+2.16.840.1.113733.1.7.23.3.1.17
+2.16.840.1.113733.1.7.23.3.1.18
+2.16.840.1.113733.1.7.23.3.1.6
+2.16.840.1.113733.1.7.23.3.1.7","http://onsitecrl.verisign.com/EidPassportIncRAPIDGatePremierCA/LatestCRL.crl","http://ssp-aia.symauth.com/VTNSSP/EID-Prem-CA.p7c","http://ssp-ocsp.symauth.com",9C65E164D3B67D9D1C07D2B60C770756A715B1EB,37C5BC1E7EE318A7B275D72B00CE8BD631CDB7CE516BA43910E028EDCAC11C9C
+"CN=Senate PIV-I CA G4, OU=Office of the Sergeant at Arms, OU=U.S. Senate, O=U.S. Government, C=US","CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US",52C8B762E38B30212288790964B7AB2C,2016-08-02 00:00:00,2024-09-28 23:59:59,"2.16.840.1.113733.1.7.23.3.1.14
+2.16.840.1.113733.1.7.23.3.1.15
+2.16.840.1.113733.1.7.23.3.1.17
+2.16.840.1.113733.1.7.23.3.1.18
+2.16.840.1.113733.1.7.23.3.1.6
+2.16.840.1.113733.1.7.23.3.1.7","http://onsite-crl.pki.digicert.com/USSenateSSPPIVIG4PROD/LatestCRL.crl
+http://onsitecrl.verisign.com/USSenateSSPPIVIG4PROD/LatestCRL.crl","http://ssp-aia.symauth.com/VTNSSP/USSenate-PIV-I-G4.p7c","http://ssp-ocsp.symauth.com",3C9D0BC463DD1AC0F91012B440E9BDC1CDCD0EFF,811D63FE72CD72B04CFD15A9C7CB909B319298944FEDECB90FDD8099828B460E
+"CN=Eid Passport LRA CA 3, OU=RAPIDGate PIV Interoperable LRA, O=Eid Passport, Inc., C=US","CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US",0BD336FF375ECB6E9187B1495254DEFF,2015-04-09 00:00:00,2024-09-28 23:59:59,"2.16.840.1.113733.1.7.23.3.1.14
+2.16.840.1.113733.1.7.23.3.1.15
+2.16.840.1.113733.1.7.23.3.1.17
+2.16.840.1.113733.1.7.23.3.1.18
+2.16.840.1.113733.1.7.23.3.1.6
+2.16.840.1.113733.1.7.23.3.1.7","http://onsitecrl.verisign.com/EiDPassportIncRAPIDGatePIVInteroperableLRA3/LatestCRL.crl
+http://onsite-crl.pki.digicert.com/EiDPassportIncRAPIDGatePIVInteroperableLRA3/LatestCRL.crl","http://ssp-aia.symauth.com/VTNSSP/EID-LRA-CA3.p7c","http://ssp-ocsp.symauth.com",5FA7A6223AB3D3F57BB554E67CED8BBB8B6E587C,46A81B2F991A675E8B9A13D5941374C545AA4316A0200518BE69C85BBD1B7D02
+"CN=SureID Inc. CA1, OU=SureID PIV-I, O=SureID, Inc., C=US","CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US",6353433BC55FBF2E550AB0594D6CE5C3,2016-01-19 00:00:00,2024-09-28 23:59:59,"2.16.840.1.113733.1.7.23.3.1.14
+2.16.840.1.113733.1.7.23.3.1.15
+2.16.840.1.113733.1.7.23.3.1.17
+2.16.840.1.113733.1.7.23.3.1.18
+2.16.840.1.113733.1.7.23.3.1.6
+2.16.840.1.113733.1.7.23.3.1.7","http://onsite-crl.pki.digicert.com/SureIDIncSureIDPIVInteroperable/LatestCRL.crl
+http://onsitecrl.verisign.com/SureIDIncSureIDPIVInteroperable/LatestCRL.crl","http://ssp-aia.symauth.com/VTNSSP/SureID-CA1.p7c","http://ssp-ocsp.symauth.com",806402252CDE854433384804CAF053F152FF483F,D6F0919DDD904D875AF953D39BA3CF3278A84F2D0E3DAA8D991119CE67E73FF2
+"CN=SureID Inc. Device CA2, O=SureID, Inc., C=US","CN=Symantec Class 3 SSP Intermediate CA - G3, OU=Symantec Trust Network, O=Symantec Corporation, C=US",2BF8D00AE1B9D45A0846EDDDCA9CFF45,2016-04-28 00:00:00,2024-09-28 23:59:59,"2.16.840.1.113733.1.7.23.3.1.20
+2.16.840.1.113733.1.7.23.3.1.36
+2.16.840.1.113733.1.7.23.3.1.8","http://onsitecrl.verisign.com/SureIDIncSureIDIncDeviceCA2/LatestCRL.crl","http://ssp-aia.symauth.com/VTNSSP/SureID-Device-CA2.p7c","http://ssp-ocsp.symauth.com",26CDE7F6D35B37B713115094EDAC864CA3F7D4AA,F8FE5FA95ED04EECB46C09A5068B189DD12C708400893B93D637B4A70CA558F5
+"CN=DigiCert Class 3 SSP Intermediate CA - G4, O=DigiCert, Inc., C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",15728CDAD19F38D34B9D09DF45729A6F8DF6A2BA,2020-05-14 17:20:22,2023-05-14 17:20:22,"2.16.840.1.113733.1.7.23.3.1.14
+2.16.840.1.113733.1.7.23.3.1.15
+2.16.840.1.113733.1.7.23.3.1.17
+2.16.840.1.113733.1.7.23.3.1.18
+2.16.840.1.113733.1.7.23.3.1.20
+2.16.840.1.113733.1.7.23.3.1.36
+2.16.840.1.113733.1.7.23.3.1.6
+2.16.840.1.113733.1.7.23.3.1.7
+2.16.840.1.113733.1.7.23.3.1.8","","","",8A8E06A378289206A64C85AD7DD37846B1ED3AAD,59FFA4D4929E0BD48AA35B02CCAC2E13A8D147B9D146BFBFD00FDE736264D00E
+"CN=Exostar Federated Identity Service Root CA 2, OU=Certification Authorities, O=Exostar LLC, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",16C8691EEC73F84D2DB6D0CCB58BC8675CF0220E,2020-02-25 16:21:37,2023-02-25 16:21:37,"1.3.6.1.4.1.13948.1.1.1.25
+1.3.6.1.4.1.13948.1.1.1.26
+1.3.6.1.4.1.13948.1.1.1.5
+1.3.6.1.4.1.13948.1.1.1.6
+1.3.6.1.4.1.13948.1.1.1.8","http://www.fis.evincible.com/fis/public/ERCA2.crl","http://www.fis.evincible.com/fis/public/issuedtoERCA2.p7c","",3930A7C9CE718D0994394FEEA49A4ADA1EBF665D,DEF2ADC8CCB7ED29584B34A0160B552AA30E78FA24E65018B8ABB1BCC3767C1C
+"CN=Exostar Federated Identity Service Signing CA 3, DC=evincible, DC=com","CN=Exostar Federated Identity Service Root CA 2, OU=Certification Authorities, O=Exostar LLC, C=US",2E0000000292A6E5517B158B23000000000002,2014-04-09 16:31:10,2024-04-09 16:31:10,"1.3.6.1.4.1.13948.1.1.1.5
+1.3.6.1.4.1.13948.1.1.1.6
+1.3.6.1.4.1.13948.1.1.1.8","http://www.fis.evincible.com/fis/public/ESCA3.crl","http://www.fis.evincible.com/fis/public/ESCA3.p7c","",F2425B9A2F50E3DA04420D884FB76BEFBEB30415,7C74F428147F63C4C654969D40BAAECAD7386434D76F33AE9D6492A6E4C18D9B
+"CN=USPTO_INTR_CA1, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=uspto, DC=gov","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",189A971B30CC79B60B35E21789DB1C479CD949F0,2019-12-12 17:41:12,2022-12-12 17:41:12,"2.16.840.1.101.3.2.1.2.11
+2.16.840.1.101.3.2.1.2.12
+2.16.840.1.101.3.2.1.2.7
+2.16.840.1.101.3.2.1.2.8
+2.16.840.1.101.3.2.1.2.9
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://ipki.uspto.gov/IPKI/CRLs/CombinedCRL3.crl","http://ipki.uspto.gov/IPKI/Certs/CAcertsIssuedToUSPTO.p7c","http://ocsp.uspto.gov",978EC2F323452F8F46932B8550663D68B6E96AF7,96FE5CCB4D66AC8BD7FB4833C1763DCA9AA4CF27A90DC9A571BF5AFC347048E5
+"CN=USPTO_INTR_CA1, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=uspto, DC=gov","CN=USPTO_INTR_CA1, CN=AIA, CN=Public Key Services, CN=Services, CN=Configuration, DC=uspto, DC=gov",4C296F46,2010-06-24 20:45:28,2030-06-24 21:15:28,"2.16.840.1.101.3.2.1.2.11
+2.16.840.1.101.3.2.1.2.12
+2.16.840.1.101.3.2.1.2.7
+2.16.840.1.101.3.2.1.2.8
+2.16.840.1.101.3.2.1.2.9
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://ipki.uspto.gov/IPKI/CRLs/CombinedCRL2.crl","http://ipki.uspto.gov/IPKI/Certs/CAcertsIssuedToUSPTO.p7c","http://ocsp.uspto.gov",0FE0C471FF7C279A1ADB8F4C1F240D64C7A04894,FFDE7F362D6E14B4FAFD2A047865D79EFECBDFB79943417F88B73B952B5F27CA
+"CN=CertiPath Bridge CA - G2, OU=Certification Authorities, O=CertiPath LLC, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",154D6E5EB1DF740A2588CA6E27D3B557829A0DFC,2019-12-12 17:45:44,2022-12-12 17:45:44,"1.3.6.1.4.1.24019.1.1.1.1
+1.3.6.1.4.1.24019.1.1.1.2
+1.3.6.1.4.1.24019.1.1.1.23
+1.3.6.1.4.1.24019.1.1.1.24
+1.3.6.1.4.1.24019.1.1.1.3
+1.3.6.1.4.1.24019.1.1.1.4
+1.3.6.1.4.1.24019.1.1.1.5
+1.3.6.1.4.1.24019.1.1.1.6
+1.3.6.1.4.1.24019.1.1.1.7
+1.3.6.1.4.1.24019.1.1.1.8
+1.3.6.1.4.1.24019.1.1.1.9","http://certipath-crl.verisign.com/CertiPathBridgeCA-G2.crl
+http://crl.certipath.com/CertiPathBridgeCA-G2.crl
+http://certipath-crl.symauth.com/CertiPathBridgeCA-G2.crl","http://certipath-aia.symauth.com/CertiPathBridgeCA-G2.p7c
+http://certipath-aia.verisign.com/CertiPathBridgeCA-G2.p7c
+http://aia.certipath.com/CertiPathBridgeCA-G2.p7c","",3BFC4DF881682F8846BFF486D422025AEE7494D8,29E4E1E1FA394723AE3626D1BCE4E1DD4986CC4501D102738D664A353FB1800B
+"CN=DoD Interoperability Root CA 2, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=Federal Bridge CA G4, OU=FPKI, O=U.S. Government, C=US",125BB632CFE89C3C0CCE2DC4F9A9B5C70F9E16F1,2019-12-16 17:04:42,2022-08-06 21:00:00,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.12.10
+2.16.840.1.101.3.2.1.12.4
+2.16.840.1.101.3.2.1.12.5
+2.16.840.1.101.3.2.1.12.6
+2.16.840.1.101.3.2.1.12.7
+2.16.840.1.101.3.2.1.12.8
+2.16.840.1.101.3.2.1.12.9
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODINTEROPERABILITYROOTCA2.crl","http://crl.disa.mil/issuedto/DODINTEROPERABILITYROOTCA2_IT.p7c","http://ocsp.disa.mil",AD9F51F8030956E9B85423256911868FD7A370CB,223535473EFFD4A1B2A56E3CD66D9AF21BE870B136EF531A5E98980569AB0E9A
+"CN=ECA Root CA 4, OU=ECA, O=U.S. Government, C=US","CN=DoD Interoperability Root CA 2, OU=PKI, OU=DoD, O=U.S. Government, C=US",0505,2018-07-31 13:51:44,2021-07-31 13:51:44,"2.16.840.1.101.3.2.1.12.10
+2.16.840.1.101.3.2.1.12.4
+2.16.840.1.101.3.2.1.12.5
+2.16.840.1.101.3.2.1.12.6
+2.16.840.1.101.3.2.1.12.7
+2.16.840.1.101.3.2.1.12.8
+2.16.840.1.101.3.2.1.12.9","http://crl.disa.mil/crl/ECAROOTCA4.crl","http://crl.disa.mil/issuedto/ECAROOTCA4_IT.p7c","http://ocsp.disa.mil",18A60D30A632F1CC44E014CCE2C9A61B01D03321,14BE29FFCCAAD3A20FB9A731B3A671E02ABA18A6030FFA0FA11E6A793022BDB6
+"CN=ORC ECA 6, OU=Certification Authorities, OU=ECA, O=U.S. Government, C=US","CN=ECA Root CA 4, OU=ECA, O=U.S. Government, C=US",08,2015-09-01 13:34:20,2021-09-01 13:34:20,"2.16.840.1.101.3.2.1.12.10
+2.16.840.1.101.3.2.1.12.4
+2.16.840.1.101.3.2.1.12.5
+2.16.840.1.101.3.2.1.12.6
+2.16.840.1.101.3.2.1.12.7
+2.16.840.1.101.3.2.1.12.8
+2.16.840.1.101.3.2.1.12.9","http://eca.orc.com/CRLs/ORCECA6.crl","http://eca.orc.com/caCerts/ECA6.p7c
+http://eca.orc.com/caCerts/ORCECA6.p7c","http://eva.orc.com/",666D13D6EFE83529319E88F3FBF5ADE440D4A5DA,DA2B33F47844BDB868E1DC5C0FDF664EB9FA74F6248FEB3662057279FEA69CC4
+"CN=IdenTrust ECA S21, OU=Certification Authorities, OU=ECA, O=U.S. Government, C=US","CN=ECA Root CA 4, OU=ECA, O=U.S. Government, C=US",78,2016-05-17 12:18:15,2022-05-18 12:18:15,"2.16.840.1.101.3.2.1.12.10
+2.16.840.1.101.3.2.1.12.4
+2.16.840.1.101.3.2.1.12.5","http://validation.identrust.com/crl/identrustecas21.crl","http://validation.identrust.com/roots/identrustecas21.cer
+http://validation.identrust.com/certs/identrustecas21.cer","http://ecas2.ocsp.identrust.com",1A575B5124E45424EE6A8917EEECBC14840C6E57,3F8AB6999F084C6F1553510C9C0042EC1FBE367D039A0B457285335219C8440C
+"CN=IdenTrust ECA S22C, OU=Certification Authorities, OU=ECA, O=U.S. Government, C=US","CN=ECA Root CA 4, OU=ECA, O=U.S. Government, C=US",02F6,2019-05-07 12:57:36,2025-05-07 12:57:36,"2.16.840.1.101.3.2.1.12.10
+2.16.840.1.101.3.2.1.12.4
+2.16.840.1.101.3.2.1.12.5
+2.16.840.1.101.3.2.1.12.9","","","",858169080268C6473EC59293A412224659F1AC7B,C1B718CAF85E4535A07012D6F040B15B2AB3D719DC4D09F4A785E30868097FD8
+"CN=IdenTrust ECA S22, OU=Certification Authorities, OU=ECA, O=U.S. Government, C=US","CN=ECA Root CA 4, OU=ECA, O=U.S. Government, C=US",02F5,2019-05-07 12:55:28,2025-05-07 12:55:28,"2.16.840.1.101.3.2.1.12.10
+2.16.840.1.101.3.2.1.12.4
+2.16.840.1.101.3.2.1.12.5","","","",A7BCFC00C818D2697D49C9407A5C7C2EEE250F00,87F627D2EED16D206E9CE3302BE2D28BEBD9D8AE43D0A4322CAEC9C436A86E96
+"CN=IdenTrust ECA Component S21, OU=Certification Authorities, OU=ECA, O=U.S. Government, C=US","CN=ECA Root CA 4, OU=ECA, O=U.S. Government, C=US",008D,2016-06-21 12:47:49,2022-06-22 12:47:49,"2.16.840.1.101.3.2.1.12.10
+2.16.840.1.101.3.2.1.12.4
+2.16.840.1.101.3.2.1.12.5
+2.16.840.1.101.3.2.1.12.9","http://validation.identrust.com/crl/identrustecacomponents21.crl","http://validation.identrust.com/certs/identrustecacomponents21.cer
+http://validation.identrust.com/roots/identrustecasc21.cer","http://ecas2.ocsp.identrust.com",A50A670B0111757C53FAD89F302D284A93C2C428,F2D4F7E1D5A0840B39988B5112BA73D1A9F849158FBA47826060DCAC17859D2F
+"CN=WidePoint ORC ECA 7, OU=Certification Authorities, OU=ECA, O=U.S. Government, C=US","CN=ECA Root CA 4, OU=ECA, O=U.S. Government, C=US",0234,2018-06-05 13:49:28,2024-06-05 13:49:28,"2.16.840.1.101.3.2.1.12.10
+2.16.840.1.101.3.2.1.12.4
+2.16.840.1.101.3.2.1.12.5
+2.16.840.1.101.3.2.1.12.6
+2.16.840.1.101.3.2.1.12.7
+2.16.840.1.101.3.2.1.12.8
+2.16.840.1.101.3.2.1.12.9","http://eca.orc.com/CRLs/ORCECA7.crl","http://eca.orc.com/caCerts/ORCECA7.p7c","http://eva.orc.com/",EADE3B21ACE12E631C8DD1720011C154C0DF84F3,1158FE54E9FC5D4913FA03D76450F5F209F4E35B19EECCCAE05B9C7E4029FBC8
+"CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Interoperability Root CA 2, OU=PKI, OU=DoD, O=U.S. Government, C=US",0566,2019-01-22 15:22:56,2022-01-22 15:22:56,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODROOTCA3.crl","http://crl.disa.mil/issuedto/DODROOTCA3_IT.p7c","http://ocsp.disa.mil",AC06108CA348CC03B53795C64BF84403C1DBD341,5648B85D3A00BC26CCA9B427267B82D5D1B8CE68B193300187EBD8FE3E8C0518
+"CN=DOD EMAIL CA-50, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0124,2016-11-22 13:45:00,2022-11-23 13:45:00,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODEMAILCA_50.crl","http://crl.disa.mil/sign/DODEMAILCA_50.cer","http://ocsp.disa.mil",BDA6529DFCC0BB1F69B7A9025017B294B9A06456,65AF6FED866BA16730508628A27F18696477078F7B4AF949735C9D110B79680F
+"CN=DOD ID CA-52, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",012A,2016-11-22 13:49:57,2022-11-23 13:49:57,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODIDCA_52.crl","http://crl.disa.mil/sign/DODIDCA_52.cer","http://ocsp.disa.mil",82118887716A07449FADD643EEF739F04981087C,30AE2DB2585A2E8225DC969A7062B64EB948E3ADFC069792ACA1C493180992A5
+"CN=DOD EMAIL CA-51, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0125,2016-11-22 13:46:49,2022-11-23 13:46:49,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODEMAILCA_51.crl","http://crl.disa.mil/sign/DODEMAILCA_51.cer","http://ocsp.disa.mil",C08391B0EA5FADFDC66EA0C1090504F179469B55,AE8B20DB38D5F304A94A8724471D311E0F6D205889378AAA7270A916F5BAFCA4
+"CN=DOD ID CA-51, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0129,2016-11-22 13:49:27,2022-11-23 13:49:27,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODIDCA_51.crl","http://crl.disa.mil/sign/DODIDCA_51.cer","http://ocsp.disa.mil",F0A49BCF0FD1FC1521B31B2796FB829780050EE4,29E91A64EA8B5A3BD573BC245F4D8C8ADCEA16B7B406088567D81A848C077F92
+"CN=DOD EMAIL CA-49, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0123,2016-11-22 13:43:14,2022-11-23 13:43:14,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODEMAILCA_49.crl","http://crl.disa.mil/sign/DODEMAILCA_49.cer","http://ocsp.disa.mil",85272E4A39BCD347386EAFE7998D91B101D85CBC,92998D1E2BF4B62C2306B43BA38BA1C77B306A6A1AF1DC380ACC34C3BE0471B0
+"CN=DOD ID CA-43, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",1A,2015-11-09 16:16:01,2021-11-09 16:16:01,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","","http://crl.disa.mil/sign/DODIDCA_43.cer","",98D3E33B50B8F6ACFF8C6020E29FF967EB0E9C18,20CBF9B63DA92527FF670DDB224396283A39EACBAB64D403F1EBCB0253E41378
+"CN=DOD EMAIL CA-44, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",17,2015-11-09 16:12:16,2021-11-09 16:12:16,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","","http://crl.disa.mil/sign/DODEMAILCA_44.cer","",21001F0B335FF9159100DD9A9CCA761AE4971005,6B3AE7D64BE77EDC3789228C552E1726E1B4AD47E0AF3F46DC9D85DFFD08927B
+"CN=DOD EMAIL CA-42, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",15,2015-11-09 16:09:42,2021-11-09 16:09:42,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","","http://crl.disa.mil/sign/DODEMAILCA_42.cer","",C3AD7E159F174BE6AA42AF8393980E985B78D5FE,48757C6DDBE5F09DF4DF1B87C592B2E3A7107B254B71C2A70CFBDD88647E065A
+"CN=DOD EMAIL CA-41, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",14,2015-11-09 16:05:27,2021-11-09 16:05:27,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","http://crl.disa.mil/crl/DODEMAILCA_41.crl","http://crl.disa.mil/sign/DODEMAILCA_41.cer","http://ocsp.disa.mil",3834499D175C03C4B8EFE52DD8B8BF03185CABDB,39BADD8C063D2C359F314D4C9F9C18CB5F004B56B525A896A334E2C933508FCD
+"CN=DOD EMAIL CA-43, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",16,2015-11-09 16:11:02,2021-11-09 16:11:02,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","","http://crl.disa.mil/sign/DODEMAILCA_43.cer","",A90AACBDD185681828A4CAA4695D39EC9C24599F,4684DB79F2CD0FD62EAA09FB004C4158298FEDDC903A613F9DE84771A8DD9C76
+"CN=DOD ID CA-42, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",19,2015-11-09 16:15:02,2021-11-09 16:15:02,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","","http://crl.disa.mil/sign/DODIDCA_42.cer","",8B125CFC2716558D716A9F87DB7CA8316D11236E,378C3F90E2F6D8B5C0D39F439716F4780B2C95EE5409F6044FE21C011947CE20
+"CN=DOD ID CA-44, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",1B,2015-11-09 16:18:14,2021-11-09 16:18:14,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","","http://crl.disa.mil/sign/DODIDCA_44.cer","",CBB492C4E8A52F024772BA4E53D47391B98FCEF0,8304AB7BBE3A3CCE529E7D182A9146FC5A59FE2EE1D9C6AC180BE2F5A0DF9F42
+"CN=DOD EMAIL CA-59, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0304,2019-04-02 13:37:25,2025-04-02 13:37:25,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","","","",53FDE0F40638BD1A68A68D1E91089009B33BAE5E,86A5939BD9054A73D0537DBB1F7B5BDA662BB4CDC00D5F7F14B262362E8B489B
+"CN=DOD ID CA-59, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0305,2019-04-02 13:38:32,2025-04-02 13:38:32,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","","","",1907FC2B223EE0301B45745BDB59AAD90FE7C5D7,43B8D8970212304B4B47D6745CA5C281A49013D2F8E8D8489B962F7D7073556E
+"CN=DOD SW CA-60, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0303,2019-04-02 13:34:49,2025-04-02 13:34:49,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42","","","",5DFFDAB658915FA6B0DB4E0BCF70D5BB1B8425FC,D8616149C63651AC9161AB04279B60A64199DB9F14AE8DDA27CC69F165B59724
+"CN=DOD ID CA-41, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",18,2015-11-09 16:13:56,2021-11-09 16:13:56,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","http://crl.disa.mil/crl/DODIDCA_41.crl","http://crl.disa.mil/sign/DODIDCA_41.cer","http://ocsp.disa.mil",FEE543483AC0ACB519688715237D3B57B9D34755,081BA940884B4FB343458A09F04B2EC0A36CDA339ECA95C55BED5A96034A6852
+"CN=DOD ID SW CA-45, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",63,2016-03-08 13:28:56,2022-03-09 13:28:56,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","","","",9E50AA4DA244EDFD7643860C9D1B2EA4865075A4,C3FED79A9BA7ABBE2E58BD56AF7EC95EF10D8A6DD05285D338316B918951EBAB
+"CN=DOD ID SW CA-46, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",64,2016-03-08 14:22:27,2022-03-09 14:22:27,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","","","",23B9874F99E05DE8EB84C41EC8009FB45BBD9681,83DA8C219E6288468699136E1C1CAF7D9821E5A99B726CD2F19B133D55164947
+"CN=DOD ID SW CA-37, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",12,2015-09-23 15:23:05,2021-09-23 15:23:05,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","http://crl.disa.mil/crl/DODCA_37.crl
+http://crl.disa.mil/crl/DODIDSWCA_37.crl","http://crl.disa.mil/sign/DODIDSWCA_37.cer
+http://crl.disa.mil/sign/DODCA_37.cer","http://ocsp.disa.mil",5EAE74A8068D42F2F3E0174BF270A13A92EAAA5D,533CB776FA12945BFA276E548B0510FC9DFBFDA1B0BBDD7DBE6E91DC7A21393F
+"CN=DOD SW CA-53, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",012B,2016-11-22 13:50:35,2022-11-23 13:50:35,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42","http://crl.disa.mil/crl/DODSWCA_53.crl","http://crl.disa.mil/sign/DODSWCA_53.cer","http://ocsp.disa.mil",2049A5B28F104B2C6E1A08546F9CFC0353D6FD30,EC0CBF1B122D440981788E57EF55FC7E0CA556126B476F865A1418E1273F5993
+"CN=DOD ID CA-49, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0127,2016-11-22 13:48:15,2022-11-23 13:48:15,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODIDCA_49.crl","http://crl.disa.mil/sign/DODIDCA_49.cer","http://ocsp.disa.mil",6CD6E8BD7ACD2F08E21693988A309ECA6772C134,C6418BECA2C7938FA3203D60E4D246D032959E913223160535E282F54D6839B5
+"CN=DOD SW CA-54, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",012C,2016-11-22 13:51:28,2022-11-23 13:51:28,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42","http://crl.disa.mil/crl/DODSWCA_54.crl","http://crl.disa.mil/sign/DODSWCA_54.cer","http://ocsp.disa.mil",2FF5D694F0548B88C037DC2F62B9B849BDA2DFCE,981ACF6AFC28EEDA876CBF3FC126C16D96E0DCDEA82EDE41C9D37DED01672879
+"CN=DOD EMAIL CA-52, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0126,2016-11-22 13:47:28,2022-11-23 13:47:28,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODEMAILCA_52.crl","http://crl.disa.mil/sign/DODEMAILCA_52.cer","http://ocsp.disa.mil",75B638AFE5A90EE80B4C50B3C2D3DCB1255C23BC,86175108108A290A1922A79272F9EDA4A4663A03A099DB683196166179973367
+"CN=DOD ID CA-50, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",0128,2016-11-22 13:48:47,2022-11-23 13:48:47,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39","http://crl.disa.mil/crl/DODIDCA_50.crl","http://crl.disa.mil/sign/DODIDCA_50.cer","http://ocsp.disa.mil",5E2E392C6CA55E9BD3F522969FFA6B3657A5D910,11C7C17D9C3A71B62D08FC129002985848D2E18D95E27D11B3C70C5BAE98BA88
+"CN=DOD ID SW CA-38, OU=PKI, OU=DoD, O=U.S. Government, C=US","CN=DoD Root CA 3, OU=PKI, OU=DoD, O=U.S. Government, C=US",13,2015-09-23 15:24:51,2021-09-23 15:24:51,"2.16.840.1.101.2.1.11.36
+2.16.840.1.101.2.1.11.39
+2.16.840.1.101.2.1.11.42
+2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17","http://crl.disa.mil/crl/DODCA_38.crl
+http://crl.disa.mil/crl/DODIDSWCA_38.crl","http://crl.disa.mil/sign/DODIDSWCA_38.cer
+http://crl.disa.mil/sign/DODCA_38.cer","http://ocsp.disa.mil",818EDAEF925779F0419394F5A305FFCC463D75EE,59FC8D390E6F92AE9EA86179CA5B9A4AE04F9B2B346F10CCC87F23AADEF15207
+"OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",734A,2019-08-14 15:39:46,2029-08-14 15:36:42,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://rootweb.managed.entrust.com/CRLs/EMSRootCA3.crl","http://rootweb.managed.entrust.com/AIA/CertsIssuedToEMSRootCA.p7c","http://ocsp.managed.entrust.com/OCSP/EMSRootCAResponder",A09655170C87D0FBFE0328B99A7BAF4A1CF0B5D9,884C352015BE6889B65851FD7AD3BE66FD1A2F19C4D346A7F1FAC16474DCE095
+"OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US","OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US",4481077B,2015-07-23 16:06:36,2025-07-23 16:36:36,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://rootweb.managed.entrust.com/CRLs/EMSRootCA2.crl
+http://feddcsweb.managed.entrust.com/CRLs/EMSRootCA2.crl","http://rootweb.managed.entrust.com/AIA/CertsIssuedToEMSRootCA.p7c","http://ocsp.managed.entrust.com/OCSP/EMSRootCAResponder",855D98C924B3EE6216B1B8E25B4342F70565C394,629E7494917E9C447F98A2FD8A6C7473232144A62EE29B63319D2776AD98C2E7
+"CN=HHS-FPKI-Intermediate-CA-E1, OU=Certification Authorities, OU=HHS, O=U.S. Government, C=US","OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US",44809A90,2016-12-20 15:40:39,2025-07-20 16:10:39,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://hhspkicrl.managed.entrust.com/CRLs/HHSEntrustCA1.crl
+http://hhspkicrl.managed.entrust.com/CRLs/HHSEntrustCAc2903.crl
+http://hhspkicrl.managed.entrust.com/CRLs/HHSEntrustCAc2229.crl
+http://hhspkicrl.managed.entrust.com/CRLs/HHSEntrustCAc3649.crl
+http://hhspkicrl.managed.entrust.com/CRLs/HHSEntrustCAc2425.crl
+http://hhspkicrl.managed.entrust.com/CRLs/HHSEntrustCAc3687.crl
+http://hhspkicrl.managed.entrust.com/CRLs/HHSEntrustCAc2682.crl","http://hhspkicrl.managed.entrust.com/AIA/CertsIssuedToHHSEntrustCA.p7c","http://ocsp.dhhs.gov
+http://hhspkiocsp.managed.entrust.com/OCSP/HHSEntrustCA",D5E311406437C35A79BC023C2BBB57049F5D8F77,266A9FED5CA5CD34C4924331A1E2F83AC5C4B2D542A50990B76A4A58BF02CBD3
+"OU=Entrust Managed Services SSP CA, OU=Certification Authorities, O=Entrust, C=US","OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US",448063D5,2015-07-30 16:37:44,2025-07-23 16:36:36,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://crl01.xpki.com/CRLs/EMSSSPCA2.crl
+http://sspweb.managed.entrust.com/CRLs/EMSSSPCA2.crl","http://sspweb.managed.entrust.com/AIA/CertsIssuedToEMSSSPCA.p7c","http://ocsp.managed.entrust.com/OCSP/EMSSSPCAResponder
+http://ocsp.xpki.com",DEC01BF40C153FBC38BF2CA766B04F9DFBDA3064,0200D4D2DB1AA4C1292101143E196CC9481E2CCD2A90FC4CB5ED81271FD308B1
+"CN=DOE SSP CA, OU=Certification Authorities, OU=Department of Energy, O=U.S. Government, C=US","OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US",4480CB97,2018-03-01 14:13:47,2025-06-01 14:43:47,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://doesspweb.managed.entrust.com/CRLs/DOESSPCA1.crl
+http://doesspweb.managed.entrust.com/CRLs/DOESSPCAc1.crl","http://doesspweb.managed.entrust.com/AIA/CertsIssuedToDOESSPCA.p7c","http://doesspocsp.managed.entrust.com/OCSP/DOESSPCA",607A8F5D6DB771D96088E8B62FF2DED30BCDB153,1046C3EB137D7B796872FFF6681708C6B02786FC8152745339A5636644F6D766
+"CN=Entrust Derived Credential SSP CA, OU=Certification Authorities, O=Entrust, C=US","OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US",4480B181,2017-07-13 21:49:29,2025-07-13 22:19:29,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://feddcsweb.managed.entrust.com/CRLs/FedDCSCA.crl","http://feddcsweb.managed.entrust.com/AIA/CertsIssuedtoFedDCSCA.p7c","http://feddcsocsp.managed.entrust.com",E9245A056B17CB5BE2E36ABF1B8DAE6DFF9D3729,35F348080F107F9317BC082FB6F2008B477A906877DCA555518F4F61F29DC4CF
+"OU=Entrust Managed Services SSP CA, OU=Certification Authorities, O=Entrust, C=US","OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US",448107B6,2019-08-13 15:46:29,2029-07-13 16:16:29,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://sspweb.managed.entrust.com/CRLs/EMSSSPCA3.crl","http://sspweb.managed.entrust.com/AIA/CertsIssuedToEMSSSPCA.p7c","http://ocsp.managed.entrust.com/OCSP/EMSSSPCAResponder",722E8ABBE6B66E47D1BCEC3C7EC47AA5BBE4D3C5,6798811B90A96E21258E409D1FB6092CB358BD70F45855ACDA0CF5A075BEB090
+"OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",0202,2010-12-15 21:12:26,2020-12-15 21:10:27,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://rootweb.managed.entrust.com/CRLs/EMSRootCA1.crl","http://rootweb.managed.entrust.com/SIA/CertsIssuedToEMSRootCA.p7c
+http://rootweb.managed.entrust.com/AIA/CertsIssuedToEMSRootCA.p7c","http://ocsp.managed.entrust.com/OCSP/EMSRootCAResponder",50F68CB28F9A9B7FBB06AC452A827A31CA9BC55E,F94491CAA003B60F6B80516228E81B39A154DAEC9009C0F32E4462232336B26D
+"CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",258E,2014-11-12 15:40:10,2024-11-12 15:39:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://ssp-crl.symauth.com/SSP/SSPG4.crl","http://ssp-aia.symauth.com/SSP/Certs_issued_to_SSPCAG4.p7c","http://ssp-ocsp.symauth.com",6A382438FD21037018DAF3F422A2132BEA2BE817,71B7DFAB307D8F13AD90F9AE44D4D15490F094C752C9828FD90D408286B2E488
+"CN=NRC SSP Agency CA G3, OU=U.S. Nuclear Regulatory Commission, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",100F05DD316CA819D9D39FEBC661B326,2014-11-25 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7","http://onsitecrl.verisign.com/USNuclearRegulatoryCommissionSSPPIVG3/LatestCRL.crl
+http://onsite-crl.pki.digicert.com/USNuclearRegulatoryCommissionSSPSWG3/LatestCRL.crl
+http://onsite-crl.pki.digicert.com/USNuclearRegulatoryCommissionSSPPIVG3/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/NRCSSP-Agency-G3.p7c
+http://ssp-aia.symauth.com/SSP/SSPNRCSSPG3-Agency.p7c","http://ssp-ocsp.symauth.com",E40BEE41CF7AFA2DDBA4EB10FF3A39F81EC48D20,FCA68A55D893990557F4DA900F74020CAE4323606887C28126AD43EB6D177294
+"CN=Naval Reactors SSP Agency CA G3, OU=U.S. Department of Energy, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",18876CD9FFD738AB7E69350ECC9D41F8,2015-12-10 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7","http://onsitecrl.verisign.com/USDepartmentofEnergyNavalReactorsPIVG3/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/DoE_NR_Agency_G3.p7c","http://ssp-ocsp.symauth.com",50E722C3B05485B216BBC02EB1628E2593A5565D,3BB76572C5EF9A19F803382F25027C1C7DC734B5B732A96888EDE205F8D35BCC
+"CN=Naval Reactors SSP Device CA G3, OU=U.S. Department of Energy, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",6463446C4368D0F89D12BC6F335265,2015-12-10 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.8","http://onsitecrl.verisign.com/USDepartmentofEnergyNavalReactorsContentSignerG3/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/DoE_NR_Device-G3.p7c","http://ssp-ocsp.symauth.com",ED9B8E769C5DF5F85BD71B5F8040B94692D7BA9A,5CBA6626508C6F3D0F3E1AB2DEE8F8B5998FDF406FC853209F1DF551A63CE1CC
+"CN=Bureau of the Census Agency CA, OU=Department of Commerce, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",2355994850457C656B1B9A58E3FC3F98,2015-07-30 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7","http://onsitecrl.verisign.com/BureauoftheCensusPIV/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/BotC_Agency.p7c","http://ssp-ocsp.symauth.com",4F75D3B2EEC610D0948006EA73740C738068BE17,2952AE58A1243A5572BCC5AB7D24790EFC02D6A1635A7ABEC9DBD417BEBCF2CF
+"CN=NRC SSP Device CA G3, OU=U.S. Nuclear Regulatory Commission, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",3E81873CDD063EF174E5FB08C93FD06A,2014-11-25 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.8","http://onsitecrl.verisign.com/USNuclearRegulatoryCommissionSSPPIVContentSignerG3/LatestCRL.crl
+http://onsite-crl.pki.digicert.com/USNuclearRegulatoryCommissionSSPPIVDomainControllerG3/LatestCRL.crl
+http://onsitecrl.verisign.com/USNuclearRegulatoryCommissionSSPPIVDomainControllerG3/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/NRCSSP-Device-G3.p7c","http://ssp-ocsp.symauth.com",160F1259769454402B3026D6D0645FF7D1ED3995,7AD09BBF9168F1BD404DB0DCA78F9EABB657BB42A3CC9D679A781DDCA5DB94A0
+"CN=NRC SSP Device CA G4, OU=U.S. Nuclear Regulatory Commission, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",52DC1355E4A05BE7CA3F40D56C583E51,2018-02-20 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.8","http://onsite-crl.pki.digicert.com/USNuclearRegulatoryCommissionSSPPIVContentSignerG4/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/NRCSSP-Device-G4.p7c","http://ssp-ocsp.symauth.com",2DF2A96D40EA1EFDE09E0D0678EEA66BE30D735F,045235A273C1D50ECCCA0829FBECE44D81981900D9F5047C2AE729FDBAB6BDB2
+"CN=U.S. Department of Education Device CA - G4, OU=U.S. Department of Education, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",2F58BF30B1BB5BF1A6D4996B2E5D8809,2015-07-21 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.8","http://onsitecrl.verisign.com/USDepartmentofEducationSSPDomainControllerG4/LatestCRL.crl
+http://onsite-crl.pki.digicert.com/USDepartmentofEducationDoEDContentSignerG4/LatestCRL.crl
+http://onsitecrl.verisign.com/USDepartmentofEducationDoEDContentSignerG4/LatestCRL.crl
+http://onsite-crl.pki.digicert.com/USDepartmentofEducationSSPDomainControllerG4/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/DoEd_Device_G4.p7c","http://ssp-ocsp.symauth.com",964346E8D3F09AE4F76D42137360C0379F037D4F,310AA94E2DE95899B9A59CCF90189ECD213A6D83C554FF7D5CC239007D6C5939
+"CN=U.S. Department of Transportation Device CA G4, OU=U.S. Department of Transportation, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",2C0218167772FB57416AD571C9E5F1EE,2014-12-11 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.8","http://onsitecrl.verisign.com/USDepartmentofTransportationFAADomainControllerG4/LatestCRL.crl
+http://cdp.iam.nas.faa.gov/LatestCRL.crl
+http://onsitecrl.verisign.com/USDepartmentofTransportationFAAContentSignerG4/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/DoT_Device_G4.p7c","http://ocsp.iam.nas.faa.gov:3502/ocsp
+http://ssp-ocsp.symauth.com",8E560E4907D96C95895D444A98DC1ED1A7158649,27D698191643F320C33B25F013A869C773F83D44C269769A93E3DF7AF5E50EF0
+"CN=U.S. Department of Education Agency CA - G4, OU=U.S. Department of Education, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",224AD7D35A9D34350671F9B8BE45A23A,2015-07-21 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7","http://onsitecrl.verisign.com/USDepartmentofEducationDoEDG4PIV/LatestCRL.crl
+http://onsite-crl.pki.digicert.com/USDepartmentofEducationDoEDG4PIV/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/DoEd_Agency_G4.p7c","http://ssp-ocsp.symauth.com",69E2ABC173047F844E3F53CB2CBD138BA9063DE8,797601C438E99043A935FCB225209643922369A8F0BD1FB526390590BD3BF758
+"CN=U.S. Department of Transportation Agency CA G4, OU=U.S. Department of Transportation, O=U.S. Government, C=US","CN=Symantec SSP Intermediate CA - G4, O=Symantec Corporation, C=US",61A90F3E5FF532F9FE6209D931279A82,2014-12-11 00:00:00,2024-11-11 23:59:59,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7","http://onsite-crl.pki.digicert.com/USDepartmentofTransportationFAAPIVG4/LatestCRL.crl
+http://onsitecrl.verisign.com/USDepartmentofTransportationFAAPIVG4/LatestCRL.crl","http://ssp-aia.symauth.com/SSP/DoT_Agency_G4.p7c","http://ssp-ocsp.symauth.com",DC5B590800765864587902AF983C21A7209BE320,FB776BEB824118F1F8228D8C673B3E0B1BC711CE61F4D65130815109C4510B7E
+"CN=Verizon SSP CA A2, OU=SSP, O=Verizon, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",65F8,2018-12-05 16:45:07,2026-12-06 16:09:55,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://cdp1.ssp-strong-id.net/CDP/VZ-SSP-CA-A2.crl","http://aia1.ssp-strong-id.net/CA/VZ-SSP-CA-A2.p7c","http://ocsp1.ssp-strong-id.net/VZ-SSP-CA-A2",477BF4017D25CDE276CDDDF756D40CA591D76F6D,77B027D3DFD29D1F7F3202C239C713802FAB2C7F430B380490EFB58017B4593C
+"CN=Veterans Affairs CA B3, OU=PKI, OU=Services, DC=va, DC=gov","CN=Verizon SSP CA A2, OU=SSP, O=Verizon, C=US",5ECB874A1B24B1113848E40E76DC3EA4449624FE,2017-12-15 17:56:56,2027-12-15 17:56:56,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://cdp1.ssp-strong-id.net/CDP/VACAB3.crl
+http://crl.pki.va.gov/PKI/CRL/VACAB3.crl","http://aia1.ssp-strong-id.net/CA/VACAB3.p7c","http://ocsp1.ssp-strong-id.net/VACAB3
+http://ocsp.pki.va.gov/",FDDB25C3CDA647FD56954B58DE95878422FB9C11,9A3BD186637A9F716093FEAAE4EB80E393E90F711D3082905FCC4630823FDB2C
+"CN=Veterans Affairs User CA B1, OU=PKI, OU=Services, DC=va, DC=gov","CN=Verizon SSP CA A2, OU=SSP, O=Verizon, C=US",251EA36536CFEBB0E9D1334D0CB96102BAB16589,2017-01-25 04:59:15,2027-01-25 04:59:15,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://crl.pki.va.gov/PKI/CRL/VET-SSP-CA-B1.crl
+http://cdp1.ssp-strong-id.net/CDP/VET-SSP-CA-B1.crl
+http://cdp1.ssp-strong-id.net/CDP/SSP-CA-A1.crl","http://aia1.ssp-strong-id.net/CA/SSP-CA-A1.p7c
+http://aia1.ssp-strong-id.net/CA/VAuserCA.p7c","http://ocsp1.ssp-strong-id.net/VA-SSP-CA-B1
+http://ocsp1.ssp-strong-id.net/SSP-CA-A1/
+http://ocsp.pki.va.gov/",671461948B8EF765FE5E1248222AF3FCDD457564,DD54D3545E9D36B5EFCDBE07EE7B250AC0125334AD7969A3F42B64A5203A412F
+"OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",2E26,2015-07-30 13:18:52,2025-07-30 13:12:42,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://rootweb.managed.entrust.com/CRLs/EMSRootCA2.crl
+http://feddcsweb.managed.entrust.com/CRLs/EMSRootCA2.crl","http://rootweb.managed.entrust.com/AIA/CertsIssuedToEMSRootCA.p7c","http://ocsp.managed.entrust.com/OCSP/EMSRootCAResponder",39C1D3B64E756A3267BFE5FECB103DA892CA0611,6264514ADF9B6A1AC69746B00EF25D66CB5FBF261E5704C11E0B9C1CACD16954
+"OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US","OU=Entrust Managed Services Root CA, OU=Certification Authorities, O=Entrust, C=US",4481077C,2019-08-13 13:50:38,2025-07-23 16:36:36,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://rootweb.managed.entrust.com/CRLs/EMSRootCA3.crl","http://rootweb.managed.entrust.com/AIA/CertsIssuedToEMSRootCA.p7c","http://ocsp.managed.entrust.com/OCSP/EMSRootCAResponder",EEF2E3B80BB276F4231D0365F97890E0F70AF8DD,E88A1B51DD7A25AE181C2F9D0412118A740D211FB0727B0686ECCF153F142E83
+"OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",6405,2018-08-29 14:18:49,2021-08-29 14:17:44,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.5
+2.16.840.1.101.3.2.1.5.7","http://pki.treas.gov/US_Treasury_Root_CA.crl
+http://pki.treasury.gov/US_Treasury_Root_CA.crl","http://pki.treasury.gov/noca_aia.p7c
+http://pki.treas.gov/fsca_aia.p7c
+http://pki.treasury.gov/cacertsissuedtotrca.p7c
+http://pki.treasury.gov/ssaca_aia.p7c
+http://pki.treas.gov/teca_aia.p7c
+http://pki.treasury.gov/vaca_aia.p7c
+http://pki.treas.gov/vaca_aia.p7c
+http://pki.treas.gov/ssaca_aia.p7c
+http://pki.treas.gov/noca_aia.p7c
+http://pki.treas.gov/dhsca_aia.p7c
+http://pki.treasury.gov/dhsca_aia.p7c
+http://pki.treas.gov/toca_aia.p7c
+http://pki.treasury.gov/toca_aia.p7c
+http://pki.treas.gov/cpca_aia.p7c","",5A87922B5EAF1D63198A951B2AB6F59B2F16C131,1A57B85AB0011EA6B932FD63E989117B38D7D947843FFC6BD93F2BA0EFD1649A
+"OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US","OU=US Treasury Root CA, OU=Certification Authorities, OU=Department of the Treasury, O=U.S. Government, C=US",570D2C01,2016-07-13 13:03:26,2026-08-05 14:46:30,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.16
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.40
+2.16.840.1.101.3.2.1.3.41
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8
+2.16.840.1.101.3.2.1.5.2
+2.16.840.1.101.3.2.1.5.3
+2.16.840.1.101.3.2.1.5.4
+2.16.840.1.101.3.2.1.5.7","http://pki.treasury.gov/US_Treasury_Root_CA1.crl","http://pki.treasury.gov/noca_aia.p7c
+http://pki.treasury.gov/ssaca_aia.p7c
+http://pki.treasury.gov/vaca_aia.p7c
+http://pki.treasury.gov/dhsca_aia.p7c
+http://pki.treasury.gov/toca_aia.p7c
+http://pki.treasury.gov/cacertsissuedtotrca.p7c","",292E789ADD0398DF474D5672CAA1DA03CE716460,2C8AE5BFFABD0881B43BAB888687FD3C1AA424669B72A4DF675C6BE3111A228A
+"CN=ORC SSP 4, O=ORC PKI, C=US","CN=Federal Common Policy CA, OU=FPKI, O=U.S. Government, C=US",2EF9,2015-08-31 15:14:29,2024-01-21 16:36:50,"2.16.840.1.101.3.2.1.3.13
+2.16.840.1.101.3.2.1.3.17
+2.16.840.1.101.3.2.1.3.36
+2.16.840.1.101.3.2.1.3.39
+2.16.840.1.101.3.2.1.3.6
+2.16.840.1.101.3.2.1.3.7
+2.16.840.1.101.3.2.1.3.8","http://crl-server.orc.com/CRLs/ORCSSP4.crl","http://crl-server.orc.com/caCerts/ORCSSP4.p7c","http://ssp4.eva.orc.com/",3A70323069A4C41BC95663152E9CCC7111BB0623,F19D37B6E3583108DD470A3CD69B3DAB0DBADC8CAF1D10A170C63BC0C1FAC9F1
