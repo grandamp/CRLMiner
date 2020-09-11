@@ -140,7 +140,7 @@
 	"9257E2EB2FB88B486C4DDD07B33C6FA7E53990CE": ["http://crl.external.lmco.com/crl/certupd/Lockheed%20Martin%20Root%20Certification%20Authority%202.crl"],
 	"8D474AD15E45EAEE2F515847214F12EBCA7AA15F": ["http://ipki.uspto.gov/IPKI/CRLs/CombinedCRL3.crl"],
 	"9C2B5DD9AAED03A4D33D631F4E61D29CE1074775": ["http://onsite-crl.pki.digicert.com/USNuclearRegulatoryCommissionSSPPIVContentSignerG4/LatestCRL.crl"],
-	"B44EBF67A512F7108473FE378732C6B7B91C483C": [],
+	"B44EBF67A512F7108473FE378732C6B7B91C483C": ["http://pki-crl.symauth.com/ca_db1ff205d5a9b79af46c7896d15cb2a9/LatestCRL.crl"],
 	"CBFD15A69A60F12E4E5B951C8C3F1D8DC2A3221B": ["http://crl.disa.mil/crl/DODIDSWCA_45.crl"],
 	"5B91C64436F228F2F8CFB2C2C8CA6349619B200A": ["http://crl.disa.mil/crl/DODIDCA_41.crl"],
 	"16247EF72DC1EF923FBE44E7545EE9FE17BAF3A1": ["http://crl.disa.mil/crl/DODIDSWCA_37.crl"],
